@@ -49,4 +49,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://www.google.com/about/careers/applications/jobs/results/97480706799608518-student-researcher-phd-wintersummer-2026?q=software%20intern | Google | Intern & Apprentice | Waterloo, ON, Canada
 - [ ] https://www.google.com/about/careers/applications/jobs/results/123358125276177094-student-researcher-bsms-wintersummer-2026?q=software%20intern | Google | Intern & Apprentice | Waterloo, ON, Canada
 
+- [ ] https://jobs.sap.com/job/Newtown-Square-SAP-iXp-Intern-BTP-Full-Stack-Developer-PA-19073/1404049433/ | SAP | SAP iXp Intern - BTP Full-Stack Developer | Newtown Square, PA, US, 19073
+
 ## Processed
