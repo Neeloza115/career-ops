@@ -322,9 +322,10 @@ async function runPlaywrightFallback(config, scanFns) {
         page.setDefaultTimeout(30_000);
         await page.goto(entry.careers_url, { waitUntil: 'domcontentloaded', timeout: 45_000 });
         await page.waitForTimeout(Number(process.env.PLAYWRIGHT_SCAN_SETTLE_MS || 2500));
-        if (entry.search_terms) {
-          const searched = await tryCareersPageSearch(page, entry.search_terms);
-          console.log(`  ${entry.name}: ${searched ? `searched "${entry.search_terms}"` : 'no search box found; scanning page as loaded'}`);
+        const searchTerms = entry.search_terms || config.playwright_search_terms;
+        if (searchTerms) {
+          const searched = await tryCareersPageSearch(page, searchTerms);
+          console.log(`  ${entry.name}: ${searched ? `searched "${searchTerms}"` : 'no search box found; scanning page as loaded'}`);
         }
         const anchors = await page.evaluate(() => Array.from(document.querySelectorAll('a[href]'))
           .map(a => ({

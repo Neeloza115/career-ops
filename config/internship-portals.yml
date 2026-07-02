@@ -15,6 +15,8 @@ freshness_filter:
   max_age_days: 14
   keep_undated: true
 
+playwright_search_terms: "software intern"
+
 title_filter:
   positive:
     - "Intern"
@@ -102,7 +104,7 @@ tracked_companies:
     enabled: true
 
   - name: Snowflake
-    careers_url: https://careers.snowflake.com/us/en/search-results?keywords=intern
+    careers_url: https://careers.snowflake.com/us/en
     scan_method: playwright
     priority: high
     enabled: true
@@ -124,19 +126,19 @@ tracked_companies:
     enabled: true
 
   - name: Google
-    careers_url: https://www.google.com/about/careers/applications/jobs/results/?q=software%20engineering%20intern
+    careers_url: https://www.google.com/about/careers/applications/jobs/results/
     scan_method: playwright
     priority: high
     enabled: true
 
   - name: Meta
-    careers_url: https://www.metacareers.com/jobs/?q=Software%20Engineer%20Intern
+    careers_url: https://www.metacareers.com/jobs/
     scan_method: playwright
     priority: high
     enabled: true
 
   - name: Apple
-    careers_url: https://jobs.apple.com/en-us/search?search=software%20engineering%20intern
+    careers_url: https://jobs.apple.com/en-us/search
     scan_method: playwright
     priority: high
     enabled: true
@@ -163,7 +165,7 @@ tracked_companies:
     enabled: true
 
   - name: HubSpot
-    careers_url: https://www.hubspot.com/careers/jobs?query=intern
+    careers_url: https://www.hubspot.com/careers/jobs
     scan_method: playwright
     priority: high
     enabled: true
@@ -174,7 +176,7 @@ tracked_companies:
     enabled: true
 
   - name: Shopify
-    careers_url: https://www.shopify.com/careers/search?query=intern
+    careers_url: https://www.shopify.com/careers/search
     scan_method: playwright
     priority: high
     enabled: true
@@ -190,13 +192,13 @@ tracked_companies:
     enabled: true
 
   - name: Microsoft
-    careers_url: https://jobs.careers.microsoft.com/global/en/search?q=software%20engineering%20intern
+    careers_url: https://jobs.careers.microsoft.com/global/en/search
     scan_method: playwright
     priority: high
     enabled: true
 
   - name: Amazon
-    careers_url: https://www.amazon.jobs/en/search?base_query=software+development+intern
+    careers_url: https://www.amazon.jobs/en/search
     scan_method: playwright
     priority: high
     enabled: true
@@ -209,18 +211,17 @@ tracked_companies:
   - name: Tesla
     careers_url: https://www.tesla.com/careers/search/
     scan_method: playwright
-    search_terms: "software intern"
     priority: high
     enabled: true
 
   - name: Uber
-    careers_url: https://jobs.uber.com/en/jobs/?q=intern
+    careers_url: https://jobs.uber.com/en/jobs/
     scan_method: playwright
     priority: high
     enabled: true
 
   - name: DoorDash
-    careers_url: https://careers.doordash.com/jobs/?search=software%20intern
+    careers_url: https://careers.doordash.com/jobs/
     scan_method: playwright
     priority: high
     enabled: true
@@ -231,7 +232,7 @@ tracked_companies:
     enabled: true
 
   - name: Pinterest
-    careers_url: https://www.pinterestcareers.com/jobs/?search=software%20intern
+    careers_url: https://www.pinterestcareers.com/jobs/
     scan_method: playwright
     priority: high
     enabled: true
@@ -247,13 +248,13 @@ tracked_companies:
     enabled: true
 
   - name: SAP
-    careers_url: https://jobs.sap.com/search/?q=software%20intern
+    careers_url: https://jobs.sap.com/search/
     scan_method: playwright
     priority: high
     enabled: true
 
   - name: Ericsson
-    careers_url: https://jobs.ericsson.com/careers?query=software%20intern
+    careers_url: https://jobs.ericsson.com/careers
     scan_method: playwright
     priority: high
     enabled: true
@@ -271,7 +272,7 @@ tracked_companies:
     enabled: true
 
   - name: Activision Blizzard
-    careers_url: https://careers.activision.com/search-results?keywords=software%20intern
+    careers_url: https://careers.activision.com/search-results
     scan_method: playwright
     priority: high
     enabled: true
@@ -289,20 +290,20 @@ tracked_companies:
     enabled: true
 
   - name: Electronic Arts
-    careers_url: https://ea.gr8people.com/jobs?keyword=software%20intern
+    careers_url: https://ea.gr8people.com/jobs
     scan_method: playwright
     priority: high
     enabled: true
 
   - name: Unity
-    careers_url: https://careers.unity.com/search?query=software%20intern
+    careers_url: https://careers.unity.com/search
     scan_method: playwright
     priority: high
     enabled: true
 
   # Quant / trading firms.
   - name: Jane Street
-    careers_url: https://www.janestreet.com/join-jane-street/open-roles/?type=internship
+    careers_url: https://www.janestreet.com/join-jane-street/open-roles/
     scan_method: playwright
     priority: quant
     enabled: true
@@ -320,7 +321,7 @@ tracked_companies:
     enabled: true
 
   - name: Hudson River Trading
-    careers_url: https://www.hudsonrivertrading.com/careers/?_411876E6C8DF4BF998A54BB26C58F5B1=Internship
+    careers_url: https://www.hudsonrivertrading.com/careers/
     scan_method: playwright
     priority: quant
     enabled: true
@@ -332,37 +333,37 @@ tracked_companies:
     enabled: true
 
   - name: Optiver
-    careers_url: https://optiver.com/working-at-optiver/career-opportunities/?level=Internship
+    careers_url: https://optiver.com/working-at-optiver/career-opportunities/
     scan_method: playwright
     priority: quant
     enabled: true
 
   - name: IMC Trading
-    careers_url: https://www.imc.com/us/careers/jobs/?keyword=intern
+    careers_url: https://www.imc.com/us/careers/jobs/
     scan_method: playwright
     priority: quant
     enabled: true
 
   - name: DRW
-    careers_url: https://drw.com/work-at-drw/listings?search=intern
+    careers_url: https://drw.com/work-at-drw/listings
     scan_method: playwright
     priority: quant
     enabled: true
 
   - name: Akuna Capital
-    careers_url: https://akunacapital.com/job-openings?keyword=intern
+    careers_url: https://akunacapital.com/job-openings
     scan_method: playwright
     priority: quant
     enabled: true
 
   - name: SIG
-    careers_url: https://careers.sig.com/search-results?keywords=intern
+    careers_url: https://careers.sig.com/search-results
     scan_method: playwright
     priority: quant
     enabled: true
 
   - name: Two Sigma
-    careers_url: https://www.twosigma.com/careers/open-roles/?query=intern
+    careers_url: https://www.twosigma.com/careers/open-roles/
     scan_method: playwright
     priority: quant
     enabled: true
@@ -375,7 +376,7 @@ tracked_companies:
 
   # Additional strong SWE / unicorn / AI infra targets.
   - name: OpenAI
-    careers_url: https://openai.com/careers/search/?q=intern
+    careers_url: https://openai.com/careers/search/
     scan_method: playwright
     priority: unicorn
     enabled: true
@@ -401,7 +402,7 @@ tracked_companies:
     enabled: true
 
   - name: Brex
-    careers_url: https://www.brex.com/careers/job-openings?query=intern
+    careers_url: https://www.brex.com/careers/job-openings
     scan_method: playwright
     priority: unicorn
     enabled: true
@@ -412,7 +413,7 @@ tracked_companies:
     enabled: true
 
   - name: Notion
-    careers_url: https://www.notion.com/careers?query=intern
+    careers_url: https://www.notion.com/careers
     scan_method: playwright
     priority: unicorn
     enabled: true
@@ -440,25 +441,25 @@ tracked_companies:
     enabled: true
 
   - name: Roblox
-    careers_url: https://careers.roblox.com/jobs?search=intern
+    careers_url: https://careers.roblox.com/jobs
     scan_method: playwright
     priority: swe
     enabled: true
 
   - name: Datadog
-    careers_url: https://careers.datadoghq.com/search/?q=intern
+    careers_url: https://careers.datadoghq.com/search/
     scan_method: playwright
     priority: swe
     enabled: true
 
   - name: Samsara
-    careers_url: https://www.samsara.com/company/careers/roles?query=intern
+    careers_url: https://www.samsara.com/company/careers/roles
     scan_method: playwright
     priority: swe
     enabled: true
 
   - name: Atlassian
-    careers_url: https://www.atlassian.com/company/careers/all-jobs?search=intern
+    careers_url: https://www.atlassian.com/company/careers/all-jobs
     scan_method: playwright
     priority: swe
     enabled: true
