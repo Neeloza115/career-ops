@@ -1,0 +1,89 @@
+name: 2027 Internship Scan
+
+on:
+  # GitHub schedules are UTC. Running at 11:00 and 12:00 UTC with the guard
+  # below keeps the real scan at 7:00 AM America/New_York across DST changes.
+  schedule:
+    - cron: "0 11 * * *"
+    - cron: "0 12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: internship-scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check 7 AM Eastern guard
+        id: eastern
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          if [ "$(TZ=America/New_York date +%H)" = "07" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Checkout
+        if: steps.eastern.outputs.run == 'true'
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        if: steps.eastern.outputs.run == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install dependencies
+        if: steps.eastern.outputs.run == 'true'
+        run: npm install
+
+      - name: Install Playwright Chromium
+        if: steps.eastern.outputs.run == 'true'
+        run: npx playwright install chromium --with-deps
+
+      - name: Run Career-Ops internship scan
+        if: steps.eastern.outputs.run == 'true'
+        env:
+          CAREER_OPS_PORTALS: config/internship-portals.yml
+          MIN_INTERNSHIP_SCORE: "4.0"
+          # Optional LLM keys are reserved for future Career-Ops scoring hooks.
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: npm run internship:scan
+
+      - name: Send email digest
+        if: steps.eastern.outputs.run == 'true'
+        env:
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          EMAIL_USERNAME: ${{ secrets.EMAIL_USERNAME }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+          SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
+          # Set this repository variable to true if you want "no new jobs today" emails.
+          SEND_EMPTY_DIGEST: ${{ vars.SEND_EMPTY_DIGEST }}
+        run: npm run internship:digest
+
+      - name: Commit scan state
+        if: steps.eastern.outputs.run == 'true'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f data/pipeline.md data/scan-history.tsv output/internship-digest.json output/internship-digest.md || true
+          if git diff --cached --quiet; then
+            echo "No scan state changes to commit."
+          else
+            git commit -m "Update internship scan state"
+            git push
+          fi

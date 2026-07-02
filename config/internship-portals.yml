@@ -1,0 +1,451 @@
+# 2027 Software Engineering Internship Scanner
+# Used by .github/workflows/internship-scan.yml via CAREER_OPS_PORTALS.
+#
+# Add more companies under tracked_companies. Prefer supported ATS URLs when
+# available: Greenhouse, Ashby, Lever, Workday, SmartRecruiters, Workable,
+# Recruitee, BambooHR, Breezy, Pinpoint, Rippling, Comeet.
+# For custom career pages, set scan_method: playwright so scripts/internship-scan.mjs
+# can use its simple browser fallback after the Career-Ops scanner runs.
+
+scan_history:
+  recheck_after_days: 120
+
+title_filter:
+  positive:
+    - "Intern"
+    - "Internship"
+    - "Co-op"
+    - "Co Op"
+    - "Coop"
+    - "University"
+    - "Student"
+    - "Summer 2027"
+    - "Fall 2027"
+    - "Winter 2027"
+    - "2027"
+  negative:
+    - "Senior"
+    - "Staff"
+    - "Principal"
+    - "Manager"
+    - "Director"
+    - "MBA"
+    - "Product Manager"
+    - "Product Design"
+    - "Designer"
+    - "Marketing"
+    - "Sales"
+    - "Legal"
+    - "Finance"
+    - "Accounting"
+    - "Recruiting"
+    - "People"
+    - "HR"
+    - "Hardware"
+    - "Mechanical"
+    - "Electrical"
+    - "ASIC"
+    - "FPGA"
+
+location_filter:
+  always_allow:
+    - "Canada"
+    - "United States"
+    - "US"
+    - "USA"
+    - "Remote"
+  allow:
+    - "Canada"
+    - "United States"
+    - "US"
+    - "USA"
+    - "Remote"
+    - "Toronto"
+    - "Vancouver"
+    - "Waterloo"
+    - "Montreal"
+    - "Ottawa"
+    - "New York"
+    - "Seattle"
+    - "San Francisco"
+    - "Palo Alto"
+    - "Mountain View"
+    - "Sunnyvale"
+    - "Menlo Park"
+    - "Bellevue"
+    - "Redmond"
+    - "Austin"
+    - "Boston"
+    - "Chicago"
+  block:
+    - "India"
+    - "Bengaluru"
+    - "Hyderabad"
+    - "Singapore"
+    - "Japan"
+    - "China"
+    - "Brazil"
+    - "Australia"
+
+tracked_companies:
+  # High-priority companies from Neel's prompt.
+  - name: Databricks
+    careers_url: https://job-boards.greenhouse.io/databricks
+    priority: high
+    enabled: true
+
+  - name: Snowflake
+    careers_url: https://snowflake.wd5.myworkdayjobs.com/snowflake
+    priority: high
+    enabled: true
+
+  - name: Rippling
+    careers_url: https://job-boards.greenhouse.io/rippling
+    priority: high
+    enabled: true
+
+  - name: Palantir
+    careers_url: https://jobs.lever.co/palantir
+    priority: high
+    enabled: true
+
+  - name: Stripe
+    careers_url: https://job-boards.greenhouse.io/stripe
+    priority: high
+    enabled: true
+
+  - name: Google
+    careers_url: https://www.google.com/about/careers/applications/jobs/results/?q=software%20engineering%20intern
+    scan_method: playwright
+    priority: high
+    enabled: true
+
+  - name: Meta
+    careers_url: https://www.metacareers.com/jobs/?q=Software%20Engineer%20Intern
+    scan_method: playwright
+    priority: high
+    enabled: true
+
+  - name: Apple
+    careers_url: https://jobs.apple.com/en-us/search?search=software%20engineering%20intern
+    scan_method: playwright
+    priority: high
+    enabled: true
+
+  - name: Robinhood
+    careers_url: https://job-boards.greenhouse.io/robinhood
+    priority: high
+    enabled: true
+
+  - name: Cloudflare
+    careers_url: https://job-boards.greenhouse.io/cloudflare
+    priority: high
+    enabled: true
+
+  - name: MongoDB
+    careers_url: https://job-boards.greenhouse.io/mongodb
+    priority: high
+    enabled: true
+
+  - name: Confluent
+    careers_url: https://job-boards.greenhouse.io/confluent
+    priority: high
+    enabled: true
+
+  - name: HubSpot
+    careers_url: https://www.hubspot.com/careers/jobs?query=intern
+    scan_method: playwright
+    priority: high
+    enabled: true
+
+  - name: Plaid
+    careers_url: https://jobs.lever.co/plaid
+    priority: high
+    enabled: true
+
+  - name: Shopify
+    careers_url: https://www.shopify.com/careers/search?query=intern
+    scan_method: playwright
+    priority: high
+    enabled: true
+
+  - name: 1Password
+    careers_url: https://jobs.ashbyhq.com/1password
+    priority: high
+    enabled: true
+
+  - name: Cohere
+    careers_url: https://jobs.ashbyhq.com/cohere
+    priority: high
+    enabled: true
+
+  - name: Microsoft
+    careers_url: https://jobs.careers.microsoft.com/global/en/search?q=software%20engineering%20intern
+    scan_method: playwright
+    priority: high
+    enabled: true
+
+  - name: Amazon
+    careers_url: https://www.amazon.jobs/en/search?base_query=software+development+intern
+    scan_method: playwright
+    priority: high
+    enabled: true
+
+  - name: NVIDIA
+    careers_url: https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite
+    priority: high
+    enabled: true
+
+  - name: Tesla
+    careers_url: https://www.tesla.com/careers/search/?query=software%20intern
+    scan_method: playwright
+    priority: high
+    enabled: true
+
+  - name: Uber
+    careers_url: https://uber.wd1.myworkdayjobs.com/uber
+    priority: high
+    enabled: true
+
+  - name: DoorDash
+    careers_url: https://careers.doordash.com/jobs/?search=software%20intern
+    scan_method: playwright
+    priority: high
+    enabled: true
+
+  - name: Instacart
+    careers_url: https://job-boards.greenhouse.io/instacart
+    priority: high
+    enabled: true
+
+  - name: Pinterest
+    careers_url: https://www.pinterestcareers.com/jobs/?search=software%20intern
+    scan_method: playwright
+    priority: high
+    enabled: true
+
+  - name: Reddit
+    careers_url: https://job-boards.greenhouse.io/reddit
+    priority: high
+    enabled: true
+
+  - name: Discord
+    careers_url: https://job-boards.greenhouse.io/discord
+    priority: high
+    enabled: true
+
+  - name: SAP
+    careers_url: https://jobs.sap.com/search/?q=software%20intern
+    scan_method: playwright
+    priority: high
+    enabled: true
+
+  - name: Ericsson
+    careers_url: https://jobs.ericsson.com/careers?query=software%20intern
+    scan_method: playwright
+    priority: high
+    enabled: true
+
+  - name: Nokia
+    careers_url: https://www.nokia.com/about-us/careers/student-and-graduate-opportunities/
+    scan_method: playwright
+    priority: high
+    enabled: true
+
+  - name: Interac
+    careers_url: https://www.interac.ca/en/careers/
+    scan_method: playwright
+    priority: high
+    enabled: true
+
+  - name: Activision Blizzard
+    careers_url: https://careers.activision.com/search-results?keywords=software%20intern
+    scan_method: playwright
+    priority: high
+    enabled: true
+
+  - name: Riot Games
+    careers_url: https://www.riotgames.com/en/work-with-us/jobs
+    scan_method: playwright
+    priority: high
+    enabled: true
+
+  - name: Epic Games
+    careers_url: https://www.epicgames.com/site/en-US/careers/jobs
+    scan_method: playwright
+    priority: high
+    enabled: true
+
+  - name: Electronic Arts
+    careers_url: https://ea.gr8people.com/jobs?keyword=software%20intern
+    scan_method: playwright
+    priority: high
+    enabled: true
+
+  - name: Unity
+    careers_url: https://careers.unity.com/search?query=software%20intern
+    scan_method: playwright
+    priority: high
+    enabled: true
+
+  # Quant / trading firms.
+  - name: Jane Street
+    careers_url: https://www.janestreet.com/join-jane-street/open-roles/?type=internship
+    scan_method: playwright
+    priority: quant
+    enabled: true
+
+  - name: Citadel
+    careers_url: https://www.citadel.com/careers/open-opportunities/students/internships/
+    scan_method: playwright
+    priority: quant
+    enabled: true
+
+  - name: Citadel Securities
+    careers_url: https://www.citadelsecurities.com/careers/open-opportunities/students/internships/
+    scan_method: playwright
+    priority: quant
+    enabled: true
+
+  - name: Hudson River Trading
+    careers_url: https://www.hudsonrivertrading.com/careers/?_411876E6C8DF4BF998A54BB26C58F5B1=Internship
+    scan_method: playwright
+    priority: quant
+    enabled: true
+
+  - name: Jump Trading
+    careers_url: https://www.jumptrading.com/careers/
+    scan_method: playwright
+    priority: quant
+    enabled: true
+
+  - name: Optiver
+    careers_url: https://optiver.com/working-at-optiver/career-opportunities/?level=Internship
+    scan_method: playwright
+    priority: quant
+    enabled: true
+
+  - name: IMC Trading
+    careers_url: https://www.imc.com/us/careers/jobs/?keyword=intern
+    scan_method: playwright
+    priority: quant
+    enabled: true
+
+  - name: DRW
+    careers_url: https://drw.com/work-at-drw/listings?search=intern
+    scan_method: playwright
+    priority: quant
+    enabled: true
+
+  - name: Akuna Capital
+    careers_url: https://akunacapital.com/job-openings?keyword=intern
+    scan_method: playwright
+    priority: quant
+    enabled: true
+
+  - name: SIG
+    careers_url: https://careers.sig.com/search-results?keywords=intern
+    scan_method: playwright
+    priority: quant
+    enabled: true
+
+  - name: Two Sigma
+    careers_url: https://www.twosigma.com/careers/open-roles/?query=intern
+    scan_method: playwright
+    priority: quant
+    enabled: true
+
+  - name: Five Rings
+    careers_url: https://www.fiverings.com/careers/
+    scan_method: playwright
+    priority: quant
+    enabled: true
+
+  # Additional strong SWE / unicorn / AI infra targets.
+  - name: OpenAI
+    careers_url: https://job-boards.greenhouse.io/openai
+    priority: unicorn
+    enabled: true
+
+  - name: Anthropic
+    careers_url: https://jobs.ashbyhq.com/anthropic
+    priority: unicorn
+    enabled: true
+
+  - name: Scale AI
+    careers_url: https://job-boards.greenhouse.io/scaleai
+    priority: unicorn
+    enabled: true
+
+  - name: Perplexity
+    careers_url: https://jobs.ashbyhq.com/perplexity
+    priority: unicorn
+    enabled: true
+
+  - name: Ramp
+    careers_url: https://jobs.ashbyhq.com/ramp
+    priority: unicorn
+    enabled: true
+
+  - name: Brex
+    careers_url: https://www.brex.com/careers/job-openings?query=intern
+    scan_method: playwright
+    priority: unicorn
+    enabled: true
+
+  - name: Figma
+    careers_url: https://boards.greenhouse.io/figma
+    priority: unicorn
+    enabled: true
+
+  - name: Notion
+    careers_url: https://www.notion.com/careers?query=intern
+    scan_method: playwright
+    priority: unicorn
+    enabled: true
+
+  - name: Vercel
+    careers_url: https://job-boards.greenhouse.io/vercel
+    priority: unicorn
+    enabled: true
+
+  - name: Glean
+    careers_url: https://jobs.ashbyhq.com/glean
+    priority: unicorn
+    enabled: true
+
+  - name: Anduril
+    careers_url: https://job-boards.greenhouse.io/andurilindustries
+    priority: unicorn
+    enabled: true
+
+  - name: Verkada
+    careers_url: https://job-boards.greenhouse.io/verkada
+    priority: unicorn
+    enabled: true
+
+  - name: Roblox
+    careers_url: https://careers.roblox.com/jobs?search=intern
+    scan_method: playwright
+    priority: swe
+    enabled: true
+
+  - name: Datadog
+    careers_url: https://careers.datadoghq.com/search/?q=intern
+    scan_method: playwright
+    priority: swe
+    enabled: true
+
+  - name: Samsara
+    careers_url: https://www.samsara.com/company/careers/roles?query=intern
+    scan_method: playwright
+    priority: swe
+    enabled: true
+
+  - name: Atlassian
+    careers_url: https://www.atlassian.com/company/careers/all-jobs?search=intern
+    scan_method: playwright
+    priority: swe
+    enabled: true
+
+job_boards: []
