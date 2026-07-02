@@ -127,18 +127,30 @@ tracked_companies:
 
   - name: Google
     careers_url: https://www.google.com/about/careers/applications/jobs/results/
+    search_urls:
+      - https://www.google.com/about/careers/applications/jobs/results/?q=software%20engineer%20intern
+      - https://www.google.com/about/careers/applications/jobs/results/?q=software%20intern
+    search_terms: "software engineer intern"
     scan_method: playwright
     priority: high
     enabled: true
 
   - name: Meta
     careers_url: https://www.metacareers.com/jobs/
+    search_urls:
+      - https://www.metacareers.com/jobs/?q=software%20engineer%20intern
+      - https://www.metacareers.com/jobs/?q=software%20intern
+    search_terms: "software engineer intern"
     scan_method: playwright
     priority: high
     enabled: true
 
   - name: Apple
     careers_url: https://jobs.apple.com/en-us/search
+    search_urls:
+      - https://jobs.apple.com/en-us/search?search=software%20engineer%20intern
+      - https://jobs.apple.com/en-us/search?search=software%20intern
+    search_terms: "software engineer intern"
     scan_method: playwright
     priority: high
     enabled: true
@@ -193,12 +205,20 @@ tracked_companies:
 
   - name: Microsoft
     careers_url: https://jobs.careers.microsoft.com/global/en/search
+    search_urls:
+      - https://jobs.careers.microsoft.com/global/en/search?q=software%20engineer%20intern
+      - https://jobs.careers.microsoft.com/global/en/search?q=software%20intern
+    search_terms: "software engineer intern"
     scan_method: playwright
     priority: high
     enabled: true
 
   - name: Amazon
     careers_url: https://www.amazon.jobs/en/search
+    search_urls:
+      - https://www.amazon.jobs/en/search?base_query=software%20development%20engineer%20intern
+      - https://www.amazon.jobs/en/search?base_query=software%20engineer%20intern
+    search_terms: "software development engineer intern"
     scan_method: playwright
     priority: high
     enabled: true
@@ -210,18 +230,30 @@ tracked_companies:
 
   - name: Tesla
     careers_url: https://www.tesla.com/careers/search/
+    search_urls:
+      - https://www.tesla.com/careers/search/?query=software%20intern
+      - https://www.tesla.com/careers/search/?query=software%20engineer%20intern&site=US
+    search_terms: "software intern"
     scan_method: playwright
     priority: high
     enabled: true
 
   - name: Uber
     careers_url: https://jobs.uber.com/en/jobs/
+    search_urls:
+      - https://jobs.uber.com/en/jobs/?query=software%20engineer%20intern
+      - https://jobs.uber.com/en/jobs/?query=software%20intern
+    search_terms: "software engineer intern"
     scan_method: playwright
     priority: high
     enabled: true
 
   - name: DoorDash
     careers_url: https://careers.doordash.com/jobs/
+    search_urls:
+      - https://careers.doordash.com/jobs/?search=software%20engineer%20intern
+      - https://careers.doordash.com/jobs/?search=software%20intern
+    search_terms: "software engineer intern"
     scan_method: playwright
     priority: high
     enabled: true
@@ -249,6 +281,10 @@ tracked_companies:
 
   - name: SAP
     careers_url: https://jobs.sap.com/search/
+    search_urls:
+      - https://jobs.sap.com/search/?q=software%20intern
+      - https://jobs.sap.com/search/?q=developer%20intern
+    search_terms: "software intern"
     scan_method: playwright
     priority: high
     enabled: true
@@ -377,6 +413,10 @@ tracked_companies:
   # Additional strong SWE / unicorn / AI infra targets.
   - name: OpenAI
     careers_url: https://openai.com/careers/search/
+    search_urls:
+      - https://openai.com/careers/search/?q=software%20intern
+      - https://openai.com/careers/search/?q=intern
+    search_terms: "software intern"
     scan_method: playwright
     priority: unicorn
     enabled: true

@@ -276,6 +276,45 @@ function bestCandidateTitle(anchorText, contextText = '') {
     || '';
 }
 
+function configLocationKeywords(locationFilter = {}) {
+  return [
+    ...(Array.isArray(locationFilter.always_allow) ? locationFilter.always_allow : [locationFilter.always_allow]),
+    ...(Array.isArray(locationFilter.allow) ? locationFilter.allow : [locationFilter.allow]),
+    ...(Array.isArray(locationFilter.block) ? locationFilter.block : [locationFilter.block]),
+  ]
+    .filter(value => typeof value === 'string')
+    .map(value => value.trim().toLowerCase())
+    .filter(Boolean)
+    .sort((a, b) => b.length - a.length);
+}
+
+function inferLocationFromContext(contextText = '', locationFilter = {}) {
+  const keywords = configLocationKeywords(locationFilter);
+  if (keywords.length === 0) return '';
+
+  const lines = String(contextText || '')
+    .split(/\r?\n/)
+    .map(normalizeAnchorTitle)
+    .filter(Boolean);
+
+  const labeled = lines.find(line => /^(locations?|office|city|work location)\s*:?\s+/i.test(line));
+  if (labeled) return labeled.replace(/^(locations?|office|city|work location)\s*:?\s+/i, '').trim();
+
+  return lines.find(line => keywords.some(keyword => lower(line).includes(keyword))) || '';
+}
+
+function configuredSearchUrls(entry = {}) {
+  const urls = [
+    ...(Array.isArray(entry.search_urls) ? entry.search_urls : [entry.search_url]),
+    entry.careers_url,
+  ]
+    .filter(value => typeof value === 'string')
+    .map(value => value.trim())
+    .filter(Boolean);
+
+  return Array.from(new Set(urls));
+}
+
 function isLikelyJobPostingUrl(url) {
   let parsed;
   try {
@@ -314,9 +353,10 @@ function parsePipelineEntry(line) {
   };
 }
 
-function cleanupPipelineFile() {
+function cleanupPipelineFile(config = {}, scanFns = {}) {
   if (dryRun || !existsSync('data/pipeline.md')) return 0;
 
+  const locationFilter = scanFns.buildLocationFilter?.(config.location_filter) || (() => true);
   const original = readText('data/pipeline.md');
   const lines = original.split(/\r?\n/);
   let removed = 0;
@@ -325,7 +365,7 @@ function cleanupPipelineFile() {
     if (!entry || !entry.hasScannerMetadata) return true;
 
     const context = `${entry.title} ${entry.company} ${entry.location} ${entry.url}`;
-    const keep = isLikelyJobPostingUrl(entry.url) && isTargetPosting(entry.title, context);
+    const keep = isLikelyJobPostingUrl(entry.url) && isTargetPosting(entry.title, context) && locationFilter(entry.location || context);
     if (!keep) removed++;
     return keep;
   });
@@ -397,6 +437,7 @@ async function runPlaywrightFallback(config, scanFns) {
   }
 
   const { loadSeenUrls, appendToPipeline, appendToScanHistory } = scanFns;
+  const locationFilter = scanFns.buildLocationFilter(config.location_filter);
   const { seen } = loadSeenUrls();
   const date = new Date().toISOString().slice(0, 10);
   const browser = await chromium.launch({ headless: true });
@@ -406,56 +447,69 @@ async function runPlaywrightFallback(config, scanFns) {
   try {
     for (const entry of entries) {
       console.log(`Generic career-page scan: ${entry.name}`);
-      let page;
-      try {
-        page = await browser.newPage({ viewport: { width: 1440, height: 1200 } });
-        page.setDefaultTimeout(30_000);
-        await page.goto(entry.careers_url, { waitUntil: 'domcontentloaded', timeout: 45_000 });
-        await page.waitForTimeout(Number(process.env.PLAYWRIGHT_SCAN_SETTLE_MS || 2500));
-        const searchTerms = entry.search_terms || config.playwright_search_terms;
-        if (searchTerms) {
-          const searched = await tryCareersPageSearch(page, searchTerms);
-          console.log(`  ${entry.name}: ${searched ? `searched "${searchTerms}"` : 'no search box found; scanning page as loaded'}`);
-        }
-        const anchors = await page.evaluate(() => Array.from(document.querySelectorAll('a[href]'))
-          .map(a => {
-            const container = a.closest('[data-job-id], [data-testid*="job" i], article, li, tr, .job, .jobs-list-item, .posting, .position, .role, .card') || a;
-            return {
-              href: a.href,
-              text: [
-                a.textContent,
-                a.getAttribute('aria-label'),
-                a.getAttribute('title'),
-              ].filter(Boolean).join(' '),
-              context: container.innerText || '',
-            };
-          }));
+      let keptForCompany = 0;
+      for (const scanUrl of configuredSearchUrls(entry)) {
+        if (keptForCompany >= GENERIC_MAX_PER_COMPANY) break;
+        let page;
+        try {
+          page = await browser.newPage({ viewport: { width: 1440, height: 1200 } });
+          page.setDefaultTimeout(30_000);
+          await page.goto(scanUrl, { waitUntil: 'domcontentloaded', timeout: 45_000 });
+          await page.waitForTimeout(Number(process.env.PLAYWRIGHT_SCAN_SETTLE_MS || 2500));
+          const searchTerms = entry.search_terms || config.playwright_search_terms;
+          const hasQuery = (() => {
+            try {
+              const parsed = new URL(scanUrl);
+              return parsed.search.length > 1 || parsed.hash.length > 1;
+            } catch {
+              return false;
+            }
+          })();
+          if (searchTerms && !hasQuery) {
+            const searched = await tryCareersPageSearch(page, searchTerms);
+            console.log(`  ${entry.name}: ${searched ? `searched "${searchTerms}"` : 'no search box found; scanning page as loaded'}`);
+          }
+          const anchors = await page.evaluate(() => Array.from(document.querySelectorAll('a[href]'))
+            .map(a => {
+              const container = a.closest('[data-job-id], [data-testid*="job" i], article, li, tr, .job, .jobs-list-item, .posting, .position, .role, .card') || a;
+              return {
+                href: a.href,
+                text: [
+                  a.textContent,
+                  a.getAttribute('aria-label'),
+                  a.getAttribute('title'),
+                ].filter(Boolean).join(' '),
+                context: container.innerText || '',
+              };
+            }));
 
-        let keptForCompany = 0;
-        for (const anchor of anchors) {
-          if (keptForCompany >= GENERIC_MAX_PER_COMPANY) break;
-          if (!anchor.href || !isLikelyJobPostingUrl(anchor.href)) continue;
-          const text = bestCandidateTitle(anchor.text, anchor.context);
-          const haystack = `${text} ${anchor.context || ''} ${anchor.href}`;
-          if (!text || !isTargetPosting(text, haystack)) continue;
-          if (seen.has(anchor.href)) continue;
-          seen.add(anchor.href);
-          candidates.push({
-            url: anchor.href,
-            firstSeen: date,
-            source: 'playwright-careers',
-            title: text,
-            company: entry.name,
-            status: 'added',
-            location: '',
-          });
-          keptForCompany++;
-        }
-      } catch (err) {
-        console.error(`  ${entry.name}: ${err.message}`);
-      } finally {
-        if (page) {
-          await page.close().catch(() => {});
+          for (const anchor of anchors) {
+            if (keptForCompany >= GENERIC_MAX_PER_COMPANY) break;
+            if (!anchor.href || !isLikelyJobPostingUrl(anchor.href)) continue;
+            const text = bestCandidateTitle(anchor.text, anchor.context);
+            const haystack = `${text} ${anchor.context || ''} ${anchor.href}`;
+            if (!text || !isTargetPosting(text, haystack)) continue;
+            const location = inferLocationFromContext(anchor.context, config.location_filter);
+            if (!locationFilter(location || anchor.context || '')) continue;
+            if (seen.has(anchor.href)) continue;
+            seen.add(anchor.href);
+            candidates.push({
+              url: anchor.href,
+              firstSeen: date,
+              source: 'playwright-careers',
+              title: text,
+              company: entry.name,
+              status: 'added',
+              location,
+            });
+            keptForCompany++;
+          }
+        } catch (err) {
+          console.error(`  ${entry.name}: ${err.message}`);
+        } finally {
+          if (page) {
+            await page.close().catch(() => {});
+          }
         }
       }
     }
@@ -544,7 +598,7 @@ async function main() {
 
   const scanFns = await import('../scan.mjs');
   await runPlaywrightFallback(config, scanFns);
-  cleanupPipelineFile();
+  cleanupPipelineFile(config, scanFns);
 
   const afterHistory = readText(HISTORY_PATH);
   const newRows = historyDelta(beforeHistory, afterHistory)

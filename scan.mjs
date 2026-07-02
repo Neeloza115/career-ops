@@ -130,6 +130,10 @@ function resolveProvider(entry, providers, { skipIds = [] } = {}) {
 // Multi-word phrases and keywords containing non-letters (".NET", "SAP ",
 // "L&D") keep fast, permissive substring matching.
 export function compileKeyword(kw) {
+  if (kw === 'intern') {
+    const re = /\bintern(ship)?s?\b/;
+    return (lower) => re.test(lower);
+  }
   if (/^[a-z]{2,3}$/.test(kw)) {
     const re = new RegExp(`\\b${kw}\\b`);
     return (lower) => re.test(lower);
@@ -188,14 +192,17 @@ export function buildLocationFilter(locationFilter) {
   const alwaysAllow = normalizeKeywordList(locationFilter.always_allow);
   const allow = normalizeKeywordList(locationFilter.allow);
   const block = normalizeKeywordList(locationFilter.block);
+  const alwaysAllowMatchers = alwaysAllow.map(compileKeyword);
+  const allowMatchers = allow.map(compileKeyword);
+  const blockMatchers = block.map(compileKeyword);
 
   return (location) => {
     if (typeof location !== 'string' || location.trim() === '') return true;
     const lower = location.toLowerCase();
-    if (alwaysAllow.length > 0 && alwaysAllow.some(k => lower.includes(k))) return true;
-    if (block.length > 0 && block.some(k => lower.includes(k))) return false;
+    if (alwaysAllowMatchers.length > 0 && alwaysAllowMatchers.some(m => m(lower))) return true;
+    if (blockMatchers.length > 0 && blockMatchers.some(m => m(lower))) return false;
     if (allow.length === 0) return true;
-    return allow.some(k => lower.includes(k));
+    return allowMatchers.some(m => m(lower));
   };
 }
 

@@ -33,6 +33,7 @@ jobs:
         run: npx playwright install chromium --with-deps
 
       - name: Run Career-Ops internship scan
+        id: internship_scan
         env:
           CAREER_OPS_PORTALS: config/internship-portals.yml
           MIN_INTERNSHIP_SCORE: "4.0"
@@ -40,17 +41,6 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: npm run internship:scan
-
-      - name: Send email digest
-        env:
-          EMAIL_TO: ${{ secrets.EMAIL_TO }}
-          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
-          EMAIL_USERNAME: ${{ secrets.EMAIL_USERNAME }}
-          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
-          SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
-          # Set this repository variable to true if you want "no new jobs today" emails.
-          SEND_EMPTY_DIGEST: ${{ vars.SEND_EMPTY_DIGEST }}
-        run: npm run internship:digest
 
       - name: Commit scan state
         shell: bash
@@ -64,3 +54,16 @@ jobs:
             git commit -m "Update internship scan state"
             git push
           fi
+
+      - name: Send email digest
+        if: ${{ always() && steps.internship_scan.outcome == 'success' }}
+        continue-on-error: true
+        env:
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+          EMAIL_USERNAME: ${{ secrets.EMAIL_USERNAME }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+          SENDGRID_API_KEY: ${{ secrets.SENDGRID_API_KEY }}
+          # Set this repository variable to true if you want "no new jobs today" emails.
+          SEND_EMPTY_DIGEST: ${{ vars.SEND_EMPTY_DIGEST }}
+        run: npm run internship:digest

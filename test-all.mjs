@@ -2241,6 +2241,17 @@ try {
     fail('"  Belgium  " should be trimmed and still match "Remote, Belgium or France"');
   }
 
+  const northAmericaFilter = buildLocationFilter({
+    always_allow: ['Canada', 'United States', 'US', 'USA', 'Remote'],
+    allow: ['Canada', 'United States', 'US', 'USA', 'Remote'],
+    block: ['Australia'],
+  });
+  if (northAmericaFilter('Sydney, Australia') === false && northAmericaFilter('New York, US') === true) {
+    pass('short location token "US" does not match inside "Australia"');
+  } else {
+    fail('short location token "US" should not bypass an Australia block');
+  }
+
   // Case 13: whitespace-only location is treated as missing (pass-all-tiers)
   if (filter('   \t  ') === true) pass('whitespace-only location passes (treated as missing)');
   else fail('whitespace-only location should pass');
@@ -2398,6 +2409,13 @@ try {
   const phraseFilter = buildTitleFilter({ positive: ['head of'] });
   if (phraseFilter('Head of Finance & Strategy') === true) pass('multi-word "head of" still matches by substring');
   else fail('"head of" should substring-match "Head of Finance & Strategy"');
+
+  const internFilter = buildTitleFilter({ positive: ['Intern'] });
+  if (internFilter('Software Engineer Intern') === true && internFilter('Internal Audit Lead') === false) {
+    pass('"Intern" positive does NOT match "Internal"');
+  } else {
+    fail('"Intern" must match internship titles without matching "Internal"');
+  }
 
   // compileKeyword is exported and directly testable.
   if (compileKeyword('cfo')('group cfo, emea') === true && compileKeyword('cfo')('cfom') === false) {
