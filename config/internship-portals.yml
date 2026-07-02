@@ -102,12 +102,14 @@ tracked_companies:
     enabled: true
 
   - name: Snowflake
-    careers_url: https://snowflake.wd5.myworkdayjobs.com/snowflake
+    careers_url: https://careers.snowflake.com/us/en/search-results?keywords=intern
+    scan_method: playwright
     priority: high
     enabled: true
 
   - name: Rippling
-    careers_url: https://job-boards.greenhouse.io/rippling
+    careers_url: https://www.rippling.com/careers
+    scan_method: playwright
     priority: high
     enabled: true
 
@@ -155,7 +157,8 @@ tracked_companies:
     enabled: true
 
   - name: Confluent
-    careers_url: https://job-boards.greenhouse.io/confluent
+    careers_url: https://www.confluent.io/careers/
+    scan_method: playwright
     priority: high
     enabled: true
 
@@ -210,7 +213,8 @@ tracked_companies:
     enabled: true
 
   - name: Uber
-    careers_url: https://uber.wd1.myworkdayjobs.com/uber
+    careers_url: https://jobs.uber.com/en/jobs/?q=intern
+    scan_method: playwright
     priority: high
     enabled: true
 
@@ -370,12 +374,13 @@ tracked_companies:
 
   # Additional strong SWE / unicorn / AI infra targets.
   - name: OpenAI
-    careers_url: https://job-boards.greenhouse.io/openai
+    careers_url: https://openai.com/careers/search/?q=intern
+    scan_method: playwright
     priority: unicorn
     enabled: true
 
   - name: Anthropic
-    careers_url: https://jobs.ashbyhq.com/anthropic
+    careers_url: https://job-boards.greenhouse.io/anthropic
     priority: unicorn
     enabled: true
 
@@ -417,12 +422,14 @@ tracked_companies:
     enabled: true
 
   - name: Glean
-    careers_url: https://jobs.ashbyhq.com/glean
+    careers_url: https://www.glean.com/careers
+    scan_method: playwright
     priority: unicorn
     enabled: true
 
   - name: Anduril
-    careers_url: https://job-boards.greenhouse.io/andurilindustries
+    careers_url: https://www.anduril.com/careers/
+    scan_method: playwright
     priority: unicorn
     enabled: true
 
