@@ -51,4 +51,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://jobs.sap.com/job/Newtown-Square-SAP-iXp-Intern-BTP-Full-Stack-Developer-PA-19073/1404049433/ | SAP | SAP iXp Intern - BTP Full-Stack Developer | Newtown Square, PA, US, 19073
 
+- [ ] https://jobs.lever.co/palantir/9e40d77f-b07c-437b-98e7-def9b0184d89 | Palantir | Forward Deployed Software Engineer, Internship - Intel | Washington, D.C.
+
+
 ## Processed
