@@ -2252,6 +2252,17 @@ try {
     fail('short location token "US" should not bypass an Australia block');
   }
 
+  if (
+    northAmericaFilter('Washington, D.C.') === true &&
+    northAmericaFilter('Honolulu, HI') === true &&
+    northAmericaFilter('Palo Alto, CA') === true &&
+    northAmericaFilter('Paris, France') === false
+  ) {
+    pass('US city/state locations pass when United States/US is allowed');
+  } else {
+    fail('US city/state locations like "Washington, D.C." should pass the North America filter');
+  }
+
   // Case 13: whitespace-only location is treated as missing (pass-all-tiers)
   if (filter('   \t  ') === true) pass('whitespace-only location passes (treated as missing)');
   else fail('whitespace-only location should pass');

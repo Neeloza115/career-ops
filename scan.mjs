@@ -187,6 +187,26 @@ function normalizeKeywordList(value) {
     .filter(Boolean);
 }
 
+const US_REGION_KEYWORDS = new Set([
+  'united states',
+  'united states of america',
+  'us',
+  'u.s.',
+  'usa',
+  'u.s.a.',
+]);
+
+const US_STATE_CODE_RE = /,\s*(?:A[LKRSZ]|C[AOT]|D[CE]|FL|GA|HI|I[ADLN]|K[SY]|LA|M[ADEHINOPST]|N[CDEHJMVY]|O[HKR]|P[AR]|RI|S[CD]|T[NX]|UT|V[AIT]|W[AIVY])\b/i;
+const WASHINGTON_DC_RE = /\bWashington,\s*D\.?\s*C\.?\b/i;
+
+function hasUsRegionKeyword(keywords) {
+  return keywords.some(keyword => US_REGION_KEYWORDS.has(keyword));
+}
+
+function looksLikeUsCityState(location) {
+  return US_STATE_CODE_RE.test(location) || WASHINGTON_DC_RE.test(location);
+}
+
 export function buildLocationFilter(locationFilter) {
   if (!locationFilter) return () => true;
   const alwaysAllow = normalizeKeywordList(locationFilter.always_allow);
@@ -195,13 +215,18 @@ export function buildLocationFilter(locationFilter) {
   const alwaysAllowMatchers = alwaysAllow.map(compileKeyword);
   const allowMatchers = allow.map(compileKeyword);
   const blockMatchers = block.map(compileKeyword);
+  const alwaysAllowUsRegion = hasUsRegionKeyword(alwaysAllow);
+  const allowUsRegion = alwaysAllowUsRegion || hasUsRegionKeyword(allow);
 
   return (location) => {
     if (typeof location !== 'string' || location.trim() === '') return true;
+    const isUsCityState = looksLikeUsCityState(location);
+    if (alwaysAllowUsRegion && isUsCityState) return true;
     const lower = location.toLowerCase();
     if (alwaysAllowMatchers.length > 0 && alwaysAllowMatchers.some(m => m(lower))) return true;
     if (blockMatchers.length > 0 && blockMatchers.some(m => m(lower))) return false;
     if (allow.length === 0) return true;
+    if (allowUsRegion && isUsCityState) return true;
     return allowMatchers.some(m => m(lower));
   };
 }
