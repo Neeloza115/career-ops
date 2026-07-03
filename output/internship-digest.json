@@ -1,25 +1,11 @@
 {
-  "generatedAt": "2026-07-03T15:07:47.221Z",
+  "generatedAt": "2026-07-03T16:26:31.323Z",
   "minScore": 4,
   "summary": {
-    "newRows": 2,
-    "emailedRows": 1,
+    "newRows": 0,
+    "emailedRows": 0,
     "dryRun": false,
     "portalsPath": "config/internship-portals.yml"
   },
-  "items": [
-    {
-      "url": "https://jobs.lever.co/palantir/9e40d77f-b07c-437b-98e7-def9b0184d89",
-      "firstSeen": "2026-07-03",
-      "source": "lever-api",
-      "title": "Forward Deployed Software Engineer, Internship - Intel",
-      "company": "Palantir",
-      "status": "added",
-      "location": "Washington, D.C.",
-      "term": "",
-      "score": 4.3,
-      "why": "high-priority target company; software engineering internship title",
-      "suggestedAction": "Review"
-    }
-  ]
+  "items": []
 }
