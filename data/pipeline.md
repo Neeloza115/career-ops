@@ -54,4 +54,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://jobs.lever.co/palantir/9e40d77f-b07c-437b-98e7-def9b0184d89 | Palantir | Forward Deployed Software Engineer, Internship - Intel | Washington, D.C.
 
 
+- [ ] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-MO-St-Louis/Performance-Engineer-Intern--Systems-Software---Fall-2026_JR2015779 | NVIDIA | Performance Engineer Intern, Systems Software- Fall 2026 | US, MO, St. Louis
+
 ## Processed
