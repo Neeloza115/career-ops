@@ -56,4 +56,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-MO-St-Louis/Performance-Engineer-Intern--Systems-Software---Fall-2026_JR2015779 | NVIDIA | Performance Engineer Intern, Systems Software- Fall 2026 | US, MO, St. Louis
 
+- [ ] https://jobs.ericsson.com/careers/job/563121772960635 | Ericsson | Automation AI ML for Open RAN CoOpOttawa,Ontario,CanadaProduct DevelopmentPosted 2 hours ago : Automation AI ML for Open RAN CoOp | Ottawa,Ontario,Canada
+
 ## Processed

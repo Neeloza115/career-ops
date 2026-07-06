@@ -1,25 +1,11 @@
 {
-  "generatedAt": "2026-07-06T19:52:28.067Z",
+  "generatedAt": "2026-07-06T22:15:03.487Z",
   "minScore": 4,
   "summary": {
     "newRows": 1,
-    "emailedRows": 1,
+    "emailedRows": 0,
     "dryRun": false,
     "portalsPath": "config/internship-portals.yml"
   },
-  "items": [
-    {
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-MO-St-Louis/Performance-Engineer-Intern--Systems-Software---Fall-2026_JR2015779",
-      "firstSeen": "2026-07-06",
-      "source": "workday-api",
-      "title": "Performance Engineer Intern, Systems Software- Fall 2026",
-      "company": "NVIDIA",
-      "status": "added",
-      "location": "US, MO, St. Louis",
-      "term": "",
-      "score": 4.3,
-      "why": "high-priority target company; backend/platform/infrastructure signal; internship term signal",
-      "suggestedAction": "Review"
-    }
-  ]
+  "items": []
 }
