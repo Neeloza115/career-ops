@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-07-08T08:19:53.202Z",
+  "generatedAt": "2026-07-08T11:05:06.969Z",
   "minScore": 4,
   "summary": {
-    "newRows": 2,
+    "newRows": 0,
     "emailedRows": 0,
     "dryRun": false,
     "portalsPath": "config/internship-portals.yml"
