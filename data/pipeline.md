@@ -58,4 +58,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://jobs.ericsson.com/careers/job/563121772960635 | Ericsson | Automation AI ML for Open RAN CoOpOttawa,Ontario,CanadaProduct DevelopmentPosted 2 hours ago : Automation AI ML for Open RAN CoOp | Ottawa,Ontario,Canada
 
+- [ ] https://www.google.com/about/careers/applications/jobs/results/138156162599002822-software-engineer-ii-early-career-google-cloud-ai-career-catalyst-program?q=software%20engineer%20intern | Google | Experience working with data structures and algorithms during coursework/projects, research, internships, or practical experience in school or work (e.g. open-source coding). | Sunnyvale, CA, USA
+- [ ] https://www.google.com/about/careers/applications/jobs/results/138156162599002822-software-engineer-ii-early-career-google-cloud-ai-career-catalyst-program?q=software%20intern | Google | Experience working with data structures and algorithms during coursework/projects, research, internships, or practical experience in school or work (e.g. open-source coding). | Sunnyvale, CA, USA
+
 ## Processed
