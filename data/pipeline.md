@@ -61,4 +61,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://www.google.com/about/careers/applications/jobs/results/138156162599002822-software-engineer-ii-early-career-google-cloud-ai-career-catalyst-program?q=software%20engineer%20intern | Google | Experience working with data structures and algorithms during coursework/projects, research, internships, or practical experience in school or work (e.g. open-source coding). | Sunnyvale, CA, USA
 - [ ] https://www.google.com/about/careers/applications/jobs/results/138156162599002822-software-engineer-ii-early-career-google-cloud-ai-career-catalyst-program?q=software%20intern | Google | Experience working with data structures and algorithms during coursework/projects, research, internships, or practical experience in school or work (e.g. open-source coding). | Sunnyvale, CA, USA
 
+- [ ] https://www.janestreet.com/join-jane-street/position/8611307002 | Jane Street | The interview process follows the same structure as our Software Engineering Intern interviews, with one key addition: after your initial technical coding ... | Machine Learning Engineer, New York - Jane Street
+
 ## Processed
