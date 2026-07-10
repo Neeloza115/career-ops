@@ -63,4 +63,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://www.janestreet.com/join-jane-street/position/8611307002 | Jane Street | The interview process follows the same structure as our Software Engineering Intern interviews, with one key addition: after your initial technical coding ... | Machine Learning Engineer, New York - Jane Street
 
+- [ ] https://www.janestreet.com/join-jane-street/position/8611307002/ | Jane Street | The interview process follows the same structure as our Software Engineering Intern interviews, with one key addition: after your initial technical coding ... | Machine Learning Engineer, New York - Jane Street
+
 ## Processed

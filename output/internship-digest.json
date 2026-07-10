@@ -1,11 +1,25 @@
 {
-  "generatedAt": "2026-07-09T22:21:56.295Z",
+  "generatedAt": "2026-07-10T02:19:57.906Z",
   "minScore": 4,
   "summary": {
-    "newRows": 0,
-    "emailedRows": 0,
+    "newRows": 1,
+    "emailedRows": 1,
     "dryRun": false,
     "portalsPath": "config/internship-portals.yml"
   },
-  "items": []
+  "items": [
+    {
+      "url": "https://www.janestreet.com/join-jane-street/position/8611307002/",
+      "firstSeen": "2026-07-10",
+      "source": "playwright-careers",
+      "title": "The interview process follows the same structure as our Software Engineering Intern interviews, with one key addition: after your initial technical coding ...",
+      "company": "Jane Street",
+      "status": "added",
+      "location": "Machine Learning Engineer, New York - Jane Street",
+      "term": "",
+      "score": 4.5,
+      "why": "quant/trading target; software engineering internship title; North America or remote location",
+      "suggestedAction": "Apply Now"
+    }
+  ]
 }
