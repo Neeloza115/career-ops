@@ -69,4 +69,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://www.janestreet.com/join-jane-street/position/8599644002/ | Jane Street | Software Engineer, New York www.janestreet.com/join-jane-street/position/8599644002/ Open Roles Software Engineer Internship, May-August. LOCATION. New York. DEPARTMENT ... As a So | Software Engineer, New York
 
+- [ ] https://jobs.lever.co/palantir/8f362a1f-1eff-4327-94c1-ff46e2101c69 | Palantir | Forward Deployed Infrastructure Engineer, Internship - US Government | Palo Alto, CA
+
 ## Processed

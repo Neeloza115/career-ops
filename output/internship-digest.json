@@ -1,37 +1,24 @@
 {
-  "generatedAt": "2026-07-11T02:05:16.467Z",
+  "generatedAt": "2026-07-11T05:39:57.443Z",
   "minScore": 4,
   "summary": {
-    "newRows": 2,
-    "emailedRows": 2,
+    "newRows": 1,
+    "emailedRows": 1,
     "dryRun": false,
     "portalsPath": "config/internship-portals.yml"
   },
   "items": [
     {
-      "url": "https://www.janestreet.com/join-jane-street/position/8599644002/",
-      "firstSeen": "2026-07-11",
-      "source": "playwright-careers",
-      "title": "Software Engineer, New York www.janestreet.com/join-jane-street/position/8599644002/ Open Roles Software Engineer Internship, May-August. LOCATION. New York. DEPARTMENT ... As a So",
-      "company": "Jane Street",
-      "status": "added",
-      "location": "Software Engineer, New York",
-      "term": "",
-      "score": 4.5,
-      "why": "quant/trading target; software engineering internship title; North America or remote location",
-      "suggestedAction": "Apply Now"
-    },
-    {
-      "url": "https://jobs.lever.co/palantir/3db7e40a-28e0-4ad1-96c5-93de5bc96aa9",
+      "url": "https://jobs.lever.co/palantir/8f362a1f-1eff-4327-94c1-ff46e2101c69",
       "firstSeen": "2026-07-11",
       "source": "lever-api",
       "title": "Forward Deployed Infrastructure Engineer, Internship - US Government",
       "company": "Palantir",
       "status": "added",
-      "location": "Washington, D.C.",
+      "location": "Palo Alto, CA",
       "term": "",
-      "score": 4.1,
-      "why": "high-priority target company; backend/platform/infrastructure signal",
+      "score": 4.3,
+      "why": "high-priority target company; backend/platform/infrastructure signal; North America or remote location",
       "suggestedAction": "Review"
     }
   ]
