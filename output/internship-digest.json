@@ -1,25 +1,11 @@
 {
-  "generatedAt": "2026-07-11T07:50:05.656Z",
+  "generatedAt": "2026-07-11T10:16:04.709Z",
   "minScore": 4,
   "summary": {
-    "newRows": 1,
-    "emailedRows": 1,
+    "newRows": 0,
+    "emailedRows": 0,
     "dryRun": false,
     "portalsPath": "config/internship-portals.yml"
   },
-  "items": [
-    {
-      "url": "https://jobs.lever.co/palantir/cf5f44ff-1b0b-4752-bcd4-2dc88798f25b",
-      "firstSeen": "2026-07-11",
-      "source": "lever-api",
-      "title": "Forward Deployed Infrastructure Engineer, Internship - US Government",
-      "company": "Palantir",
-      "status": "added",
-      "location": "New York, NY",
-      "term": "",
-      "score": 4.3,
-      "why": "high-priority target company; backend/platform/infrastructure signal; North America or remote location",
-      "suggestedAction": "Review"
-    }
-  ]
+  "items": []
 }
