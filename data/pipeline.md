@@ -65,4 +65,8 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://www.janestreet.com/join-jane-street/position/8611307002/ | Jane Street | The interview process follows the same structure as our Software Engineering Intern interviews, with one key addition: after your initial technical coding ... | Machine Learning Engineer, New York - Jane Street
 
+- [ ] https://jobs.lever.co/palantir/3db7e40a-28e0-4ad1-96c5-93de5bc96aa9 | Palantir | Forward Deployed Infrastructure Engineer, Internship - US Government | Washington, D.C.
+
+- [ ] https://www.janestreet.com/join-jane-street/position/8599644002/ | Jane Street | Software Engineer, New York www.janestreet.com/join-jane-street/position/8599644002/ Open Roles Software Engineer Internship, May-August. LOCATION. New York. DEPARTMENT ... As a So | Software Engineer, New York
+
 ## Processed
