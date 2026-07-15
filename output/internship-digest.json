@@ -1,11 +1,25 @@
 {
-  "generatedAt": "2026-07-15T13:27:06.340Z",
+  "generatedAt": "2026-07-15T16:20:44.402Z",
   "minScore": 4,
   "summary": {
-    "newRows": 0,
-    "emailedRows": 0,
+    "newRows": 1,
+    "emailedRows": 1,
     "dryRun": false,
     "portalsPath": "config/internship-portals.yml"
   },
-  "items": []
+  "items": [
+    {
+      "url": "https://jobs.ashbyhq.com/snowflake/897e1850-c590-4462-b187-0516b65b2034",
+      "firstSeen": "2026-07-15",
+      "source": "playwright-careers",
+      "title": "Now Now Software Engineer Intern (AI/ML) - 2026",
+      "company": "Snowflake",
+      "status": "added",
+      "location": "",
+      "term": "",
+      "score": 4.3,
+      "why": "high-priority target company; software engineering internship title",
+      "suggestedAction": "Review"
+    }
+  ]
 }
