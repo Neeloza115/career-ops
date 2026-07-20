@@ -1,11 +1,142 @@
 {
-  "generatedAt": "2026-07-20T13:58:32.437Z",
+  "generatedAt": "2026-07-20T16:26:50.921Z",
   "minScore": 4,
   "summary": {
-    "newRows": 0,
-    "emailedRows": 0,
+    "newRows": 14,
+    "emailedRows": 10,
     "dryRun": false,
     "portalsPath": "config/internship-portals.yml"
   },
-  "items": []
+  "items": [
+    {
+      "url": "https://www.google.com/about/careers/applications/jobs/results/95141459539174086-software-engineering-intern-ms-summer-2027?q=software%20engineer%20intern",
+      "firstSeen": "2026-07-20",
+      "source": "playwright-careers",
+      "title": "about Software Engineering Intern, MS, Summer 2027",
+      "company": "Google",
+      "status": "added",
+      "location": "Mountain View, CA, USA",
+      "term": "Summer 2027",
+      "score": 4.7,
+      "why": "high-priority target company; software engineering internship title; internship term signal",
+      "suggestedAction": "Apply Now"
+    },
+    {
+      "url": "https://www.google.com/about/careers/applications/jobs/results/85564713261245126-software-engineering-intern-bs-summer-2027?q=software%20engineer%20intern",
+      "firstSeen": "2026-07-20",
+      "source": "playwright-careers",
+      "title": "about Software Engineering Intern, BS, Summer 2027",
+      "company": "Google",
+      "status": "added",
+      "location": "Mountain View, CA, USA",
+      "term": "Summer 2027",
+      "score": 4.7,
+      "why": "high-priority target company; software engineering internship title; internship term signal",
+      "suggestedAction": "Apply Now"
+    },
+    {
+      "url": "https://www.google.com/about/careers/applications/jobs/results/95423484271698630-software-developer-intern-ms-summer-2027?q=software%20engineer%20intern",
+      "firstSeen": "2026-07-20",
+      "source": "playwright-careers",
+      "title": "about Software Developer Intern, MS, Summer 2027",
+      "company": "Google",
+      "status": "added",
+      "location": "Waterloo, ON, Canada",
+      "term": "Summer 2027",
+      "score": 4.7,
+      "why": "high-priority target company; software engineering internship title; internship term signal",
+      "suggestedAction": "Apply Now"
+    },
+    {
+      "url": "https://www.google.com/about/careers/applications/jobs/results/76982475250639558-software-developer-intern-bs-summer-2027?q=software%20engineer%20intern",
+      "firstSeen": "2026-07-20",
+      "source": "playwright-careers",
+      "title": "about Software Developer Intern, BS, Summer 2027",
+      "company": "Google",
+      "status": "added",
+      "location": "Waterloo, ON, Canada",
+      "term": "Summer 2027",
+      "score": 4.7,
+      "why": "high-priority target company; software engineering internship title; internship term signal",
+      "suggestedAction": "Apply Now"
+    },
+    {
+      "url": "https://www.google.com/about/careers/applications/jobs/results/95141459539174086-software-engineering-intern-ms-summer-2027?q=software%20intern",
+      "firstSeen": "2026-07-20",
+      "source": "playwright-careers",
+      "title": "about Software Engineering Intern, MS, Summer 2027",
+      "company": "Google",
+      "status": "added",
+      "location": "Mountain View, CA, USA",
+      "term": "Summer 2027",
+      "score": 4.7,
+      "why": "high-priority target company; software engineering internship title; internship term signal",
+      "suggestedAction": "Apply Now"
+    },
+    {
+      "url": "https://www.google.com/about/careers/applications/jobs/results/85564713261245126-software-engineering-intern-bs-summer-2027?q=software%20intern",
+      "firstSeen": "2026-07-20",
+      "source": "playwright-careers",
+      "title": "about Software Engineering Intern, BS, Summer 2027",
+      "company": "Google",
+      "status": "added",
+      "location": "Mountain View, CA, USA",
+      "term": "Summer 2027",
+      "score": 4.7,
+      "why": "high-priority target company; software engineering internship title; internship term signal",
+      "suggestedAction": "Apply Now"
+    },
+    {
+      "url": "https://www.google.com/about/careers/applications/jobs/results/95423484271698630-software-developer-intern-ms-summer-2027?q=software%20intern",
+      "firstSeen": "2026-07-20",
+      "source": "playwright-careers",
+      "title": "about Software Developer Intern, MS, Summer 2027",
+      "company": "Google",
+      "status": "added",
+      "location": "Waterloo, ON, Canada",
+      "term": "Summer 2027",
+      "score": 4.7,
+      "why": "high-priority target company; software engineering internship title; internship term signal",
+      "suggestedAction": "Apply Now"
+    },
+    {
+      "url": "https://www.google.com/about/careers/applications/jobs/results/76982475250639558-software-developer-intern-bs-summer-2027?q=software%20intern",
+      "firstSeen": "2026-07-20",
+      "source": "playwright-careers",
+      "title": "about Software Developer Intern, BS, Summer 2027",
+      "company": "Google",
+      "status": "added",
+      "location": "Waterloo, ON, Canada",
+      "term": "Summer 2027",
+      "score": 4.7,
+      "why": "high-priority target company; software engineering internship title; internship term signal",
+      "suggestedAction": "Apply Now"
+    },
+    {
+      "url": "https://www.google.com/about/careers/applications/jobs/results/85564713261245126-software-engineering-intern-bs-summer-2027",
+      "firstSeen": "2026-07-20",
+      "source": "playwright-careers",
+      "title": "about Software Engineering Intern, BS, Summer 2027",
+      "company": "Google",
+      "status": "added",
+      "location": "Mountain View, CA, USA",
+      "term": "Summer 2027",
+      "score": 4.7,
+      "why": "high-priority target company; software engineering internship title; internship term signal",
+      "suggestedAction": "Apply Now"
+    },
+    {
+      "url": "https://www.google.com/about/careers/applications/jobs/results/95141459539174086-software-engineering-intern-ms-summer-2027",
+      "firstSeen": "2026-07-20",
+      "source": "playwright-careers",
+      "title": "about Software Engineering Intern, MS, Summer 2027",
+      "company": "Google",
+      "status": "added",
+      "location": "Mountain View, CA, USA",
+      "term": "Summer 2027",
+      "score": 4.7,
+      "why": "high-priority target company; software engineering internship title; internship term signal",
+      "suggestedAction": "Apply Now"
+    }
+  ]
 }
