@@ -92,4 +92,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://www.google.com/about/careers/applications/jobs/results/95141459539174086-software-engineering-intern-ms-summer-2027 | Google | about Software Engineering Intern, MS, Summer 2027 | Mountain View, CA, USA
 
 
+- [ ] https://www.google.com/about/careers/applications/jobs/results/93454980500857542-software-engineer-ii-site-reliability-engineering-labs-sre?q=software%20intern | Google | 1 year of experience with software development in one or more programming languages during coursework/projects, research, internships, or practical experience in school, work, or O
+
 ## Processed
