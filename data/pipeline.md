@@ -94,4 +94,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://www.google.com/about/careers/applications/jobs/results/93454980500857542-software-engineer-ii-site-reliability-engineering-labs-sre?q=software%20intern | Google | 1 year of experience with software development in one or more programming languages during coursework/projects, research, internships, or practical experience in school, work, or O
 
+- [ ] https://www.janestreet.com/join-jane-street/position/8625946002/ | Jane Street | Linux Engineer, Hong Kong www.janestreet.com/join-jane-street/position/8625946002/ Open Roles As an intern, you'll be paired with ... Our purposeful blending of in-house and open s | As an intern, you'll be paired with ... Our purposeful blending of in-house and open source software allows us to investigate and innovate at every level.
+
 ## Processed
