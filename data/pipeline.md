@@ -96,4 +96,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://www.janestreet.com/join-jane-street/position/8625946002/ | Jane Street | Linux Engineer, Hong Kong www.janestreet.com/join-jane-street/position/8625946002/ Open Roles As an intern, you'll be paired with ... Our purposeful blending of in-house and open s | As an intern, you'll be paired with ... Our purposeful blending of in-house and open source software allows us to investigate and innovate at every level.
 
+- [ ] https://jobs.ericsson.com/careers/job/563121776735420 | Ericsson | TRX InternOttawa,Ontario,CanadaProduct DevelopmentPosted 2 hours ago : TRX Intern | Ottawa,Ontario,Canada
+
 ## Processed
