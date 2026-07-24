@@ -98,4 +98,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://jobs.ericsson.com/careers/job/563121776735420 | Ericsson | TRX InternOttawa,Ontario,CanadaProduct DevelopmentPosted 2 hours ago : TRX Intern | Ottawa,Ontario,Canada
 
+- [ ] https://jobs.sap.com/job/Palo-Alto-SAP-Globalization-iXp-Intern-Software-Developer-CA-94304/1418866533/ | SAP | SAP Globalization iXp Intern - Software Developer | Palo Alto, CA, US, 94304
+
 ## Processed
