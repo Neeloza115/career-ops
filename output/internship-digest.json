@@ -1,25 +1,11 @@
 {
-  "generatedAt": "2026-07-24T16:40:55.923Z",
+  "generatedAt": "2026-07-24T19:21:20.751Z",
   "minScore": 4,
   "summary": {
-    "newRows": 1,
-    "emailedRows": 1,
+    "newRows": 0,
+    "emailedRows": 0,
     "dryRun": false,
     "portalsPath": "config/internship-portals.yml"
   },
-  "items": [
-    {
-      "url": "https://jobs.sap.com/job/Palo-Alto-SAP-Globalization-iXp-Intern-Software-Developer-CA-94304/1418866533/",
-      "firstSeen": "2026-07-24",
-      "source": "playwright-careers",
-      "title": "SAP Globalization iXp Intern - Software Developer",
-      "company": "SAP",
-      "status": "added",
-      "location": "Palo Alto, CA, US, 94304",
-      "term": "",
-      "score": 4.5,
-      "why": "high-priority target company; software engineering internship title; North America or remote location",
-      "suggestedAction": "Apply Now"
-    }
-  ]
+  "items": []
 }
