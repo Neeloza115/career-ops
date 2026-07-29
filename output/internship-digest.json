@@ -1,11 +1,25 @@
 {
-  "generatedAt": "2026-07-29T11:22:52.387Z",
+  "generatedAt": "2026-07-29T13:58:24.992Z",
   "minScore": 4,
   "summary": {
-    "newRows": 0,
-    "emailedRows": 0,
+    "newRows": 1,
+    "emailedRows": 1,
     "dryRun": false,
     "portalsPath": "config/internship-portals.yml"
   },
-  "items": []
+  "items": [
+    {
+      "url": "https://www.google.com/about/careers/applications/jobs/results/108160409503965894-research-engineer-gemini-large-scale-pretraining-deepmind?q=software%20engineer%20intern",
+      "firstSeen": "2026-07-29",
+      "source": "playwright-careers",
+      "title": "2 years of experience with software engineering involving Python-based ML/scientific libraries such as JAX or internship experience in these areas or Open Source Software (OSS) con",
+      "company": "Google",
+      "status": "added",
+      "location": "",
+      "term": "",
+      "score": 4.3,
+      "why": "high-priority target company; software engineering internship title",
+      "suggestedAction": "Review"
+    }
+  ]
 }
