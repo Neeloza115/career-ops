@@ -103,4 +103,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 
 
+- [ ] https://apply.careers.microsoft.com/careers/job/1970393556944017 | Microsoft | Cloud Solution Architect - Kuwait Nationalization InternshipKuwait, Al 'Asimah, KuwaitPosted an hour ago : Cloud Solution Architect - Kuwait Nationalization Internship
+
 ## Processed

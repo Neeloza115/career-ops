@@ -1,11 +1,25 @@
 {
-  "generatedAt": "2026-07-31T11:29:39.746Z",
+  "generatedAt": "2026-07-31T13:53:14.804Z",
   "minScore": 4,
   "summary": {
-    "newRows": 0,
-    "emailedRows": 0,
+    "newRows": 1,
+    "emailedRows": 1,
     "dryRun": false,
     "portalsPath": "config/internship-portals.yml"
   },
-  "items": []
+  "items": [
+    {
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556944017",
+      "firstSeen": "2026-07-31",
+      "source": "playwright-careers",
+      "title": "Cloud Solution Architect - Kuwait Nationalization InternshipKuwait, Al 'Asimah, KuwaitPosted an hour ago : Cloud Solution Architect - Kuwait Nationalization Internship",
+      "company": "Microsoft",
+      "status": "added",
+      "location": "",
+      "term": "",
+      "score": 4.1,
+      "why": "high-priority target company; backend/platform/infrastructure signal",
+      "suggestedAction": "Review"
+    }
+  ]
 }
