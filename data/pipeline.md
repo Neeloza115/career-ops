@@ -105,4 +105,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://apply.careers.microsoft.com/careers/job/1970393556944017 | Microsoft | Cloud Solution Architect - Kuwait Nationalization InternshipKuwait, Al 'Asimah, KuwaitPosted an hour ago : Cloud Solution Architect - Kuwait Nationalization Internship
 
+- [ ] https://apply.careers.microsoft.com/careers/job/1970393556951951 | Microsoft | Software Engineer - Gears of War - The Coalition: Internship OpportunitiesCanada, British Columbia, VancouverPosted 2 hours ago : Software Engineer - Gears of War - The Coalition: | Canada, British Columbia, Vancouver
+
 ## Processed
