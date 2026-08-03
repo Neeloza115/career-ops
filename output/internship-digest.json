@@ -1,25 +1,11 @@
 {
-  "generatedAt": "2026-08-02T21:53:46.061Z",
+  "generatedAt": "2026-08-03T02:12:19.386Z",
   "minScore": 4,
   "summary": {
-    "newRows": 1,
-    "emailedRows": 1,
+    "newRows": 0,
+    "emailedRows": 0,
     "dryRun": false,
     "portalsPath": "config/internship-portals.yml"
   },
-  "items": [
-    {
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556951951",
-      "firstSeen": "2026-08-02",
-      "source": "playwright-careers",
-      "title": "Software Engineer - Gears of War - The Coalition: Internship OpportunitiesCanada, British Columbia, VancouverPosted 2 hours ago : Software Engineer - Gears of War - The Coalition:",
-      "company": "Microsoft",
-      "status": "added",
-      "location": "Canada, British Columbia, Vancouver",
-      "term": "",
-      "score": 4.5,
-      "why": "high-priority target company; software engineering internship title; North America or remote location",
-      "suggestedAction": "Apply Now"
-    }
-  ]
+  "items": []
 }
