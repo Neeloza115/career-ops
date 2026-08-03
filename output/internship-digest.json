@@ -1,11 +1,25 @@
 {
-  "generatedAt": "2026-08-03T06:19:13.674Z",
+  "generatedAt": "2026-08-03T12:20:49.615Z",
   "minScore": 4,
   "summary": {
-    "newRows": 0,
-    "emailedRows": 0,
+    "newRows": 1,
+    "emailedRows": 1,
     "dryRun": false,
     "portalsPath": "config/internship-portals.yml"
   },
-  "items": []
+  "items": [
+    {
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556951950",
+      "firstSeen": "2026-08-03",
+      "source": "playwright-careers",
+      "title": "Software Engineer: Intern Opportunities for University Students - CoreAIUnited States, Washington, RedmondPosted 5 hours ago : Software Engineer: Intern Opportunities for Universit",
+      "company": "Microsoft",
+      "status": "added",
+      "location": "United States, Washington, Redmond",
+      "term": "",
+      "score": 4.5,
+      "why": "high-priority target company; software engineering internship title; North America or remote location",
+      "suggestedAction": "Apply Now"
+    }
+  ]
 }

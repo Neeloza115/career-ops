@@ -107,4 +107,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://apply.careers.microsoft.com/careers/job/1970393556951951 | Microsoft | Software Engineer - Gears of War - The Coalition: Internship OpportunitiesCanada, British Columbia, VancouverPosted 2 hours ago : Software Engineer - Gears of War - The Coalition: | Canada, British Columbia, Vancouver
 
+- [ ] https://apply.careers.microsoft.com/careers/job/1970393556951950 | Microsoft | Software Engineer: Intern Opportunities for University Students - CoreAIUnited States, Washington, RedmondPosted 5 hours ago : Software Engineer: Intern Opportunities for Universit | United States, Washington, Redmond
+
 ## Processed
