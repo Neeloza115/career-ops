@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T12:20:49.615Z",
+  "generatedAt": "2026-08-03T17:11:02.265Z",
   "minScore": 4,
   "summary": {
     "newRows": 1,
@@ -9,17 +9,17 @@
   },
   "items": [
     {
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556951950",
+      "url": "https://www.samsara.com/company/careers/roles/8082091?gh_jid=8082091&gh_board=samsara",
       "firstSeen": "2026-08-03",
       "source": "playwright-careers",
-      "title": "Software Engineer: Intern Opportunities for University Students - CoreAIUnited States, Washington, RedmondPosted 5 hours ago : Software Engineer: Intern Opportunities for Universit",
-      "company": "Microsoft",
+      "title": "Software Engineering Internship 2027San Francisco - SF9",
+      "company": "Samsara",
       "status": "added",
-      "location": "United States, Washington, Redmond",
+      "location": "San Francisco - SF9",
       "term": "",
-      "score": 4.5,
-      "why": "high-priority target company; software engineering internship title; North America or remote location",
-      "suggestedAction": "Apply Now"
+      "score": 4.4,
+      "why": "strong SWE target company; software engineering internship title; internship term signal",
+      "suggestedAction": "Review"
     }
   ]
 }

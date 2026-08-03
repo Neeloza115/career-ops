@@ -109,4 +109,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://apply.careers.microsoft.com/careers/job/1970393556951950 | Microsoft | Software Engineer: Intern Opportunities for University Students - CoreAIUnited States, Washington, RedmondPosted 5 hours ago : Software Engineer: Intern Opportunities for Universit | United States, Washington, Redmond
 
+- [ ] https://www.samsara.com/company/careers/roles/8082091?gh_jid=8082091&gh_board=samsara | Samsara | Software Engineering Internship 2027San Francisco - SF9 | San Francisco - SF9
+
 ## Processed

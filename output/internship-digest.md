@@ -4,7 +4,7 @@ New matching postings: 1
 
 | Company | Role | Location | Term | Score | Action | Date Found | URL |
 |---|---|---|---|---:|---|---|---|
-| Microsoft | Software Engineer: Intern Opportunities for University Students - CoreAIUnited States, Washington, RedmondPosted 5 hours ago : Software Engineer: Intern Opportunities for Universit | United States, Washington, Redmond | N/A | 4.5/5 | Apply Now | 2026-08-03 | https://apply.careers.microsoft.com/careers/job/1970393556951950 |
+| Samsara | Software Engineering Internship 2027San Francisco - SF9 | San Francisco - SF9 | N/A | 4.4/5 | Review | 2026-08-03 | https://www.samsara.com/company/careers/roles/8082091?gh_jid=8082091&gh_board=samsara |
 
 ## Why These Matched
-- Microsoft - Software Engineer: Intern Opportunities for University Students - CoreAIUnited States, Washington, RedmondPosted 5 hours ago : Software Engineer: Intern Opportunities for Universit: high-priority target company; software engineering internship title; North America or remote location
+- Samsara - Software Engineering Internship 2027San Francisco - SF9: strong SWE target company; software engineering internship title; internship term signal
