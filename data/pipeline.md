@@ -111,4 +111,10 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://www.samsara.com/company/careers/roles/8082091?gh_jid=8082091&gh_board=samsara | Samsara | Software Engineering Internship 2027San Francisco - SF9 | San Francisco - SF9
 
+- [ ] https://apply.careers.microsoft.com/careers/job/1970393556922931 | Microsoft | Software Engineer: Data Platform/Analytics Intern Opportunities for University Students, RedmondUnited States, Washington, RedmondPosted an hour ago : Software Engineer: Data Platf | Software Engineer: Data Platform/Analytics Intern Opportunities for University Students, Redmond
+- [ ] https://apply.careers.microsoft.com/careers/job/1970393556922930 | Microsoft | Software Engineer: Security & Identity Intern Opportunities for University Students, RedmondUnited States, Washington, RedmondPosted an hour ago : Software Engineer: Security & Ide | Software Engineer: Security & Identity Intern Opportunities for University Students, Redmond
+- [ ] https://apply.careers.microsoft.com/careers/job/1970393556922929 | Microsoft | Software Engineer: AI/ML & LLM Intern Opportunities for University Students, RedmondUnited States, Washington, RedmondPosted an hour ago : Software Engineer: AI/ML & LLM Intern Opp | Software Engineer: AI/ML & LLM Intern Opportunities for University Students, Redmond
+- [ ] https://apply.careers.microsoft.com/careers/job/1970393556922923 | Microsoft | Software Engineer: Cloud & Distributed Backend Intern Opportunities for University Students, RedmondUnited States, Washington, RedmondPosted an hour ago : Software Engineer: Cloud | Software Engineer: Cloud & Distributed Backend Intern Opportunities for University Students, Redmond
+- [ ] https://apply.careers.microsoft.com/careers/job/1970393556922922 | Microsoft | Software Engineer: Fullstack Product (Web + Services) Intern Opportunities for University Students,United States, Washington, RedmondPosted an hour ago : Software Engineer: Fullsta | United States, Washington, Redmond
+
 ## Processed

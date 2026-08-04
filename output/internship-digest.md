@@ -1,5 +1,18 @@
-# 2027 Internship Digest - 2026-08-03
+# 2027 Internship Digest - 2026-08-04
 
-New matching postings: 0
+New matching postings: 5
 
-No new matching postings met the score threshold.
+| Company | Role | Location | Term | Score | Action | Date Found | URL |
+|---|---|---|---|---:|---|---|---|
+| Microsoft | Software Engineer: Data Platform/Analytics Intern Opportunities for University Students, RedmondUnited States, Washington, RedmondPosted an hour ago : Software Engineer: Data Platf | Software Engineer: Data Platform/Analytics Intern Opportunities for University Students, Redmond | N/A | 4.8/5 | Apply Now | 2026-08-04 | https://apply.careers.microsoft.com/careers/job/1970393556922931 |
+| Microsoft | Software Engineer: Cloud & Distributed Backend Intern Opportunities for University Students, RedmondUnited States, Washington, RedmondPosted an hour ago : Software Engineer: Cloud | Software Engineer: Cloud & Distributed Backend Intern Opportunities for University Students, Redmond | N/A | 4.8/5 | Apply Now | 2026-08-04 | https://apply.careers.microsoft.com/careers/job/1970393556922923 |
+| Microsoft | Software Engineer: Security & Identity Intern Opportunities for University Students, RedmondUnited States, Washington, RedmondPosted an hour ago : Software Engineer: Security & Ide | Software Engineer: Security & Identity Intern Opportunities for University Students, Redmond | N/A | 4.5/5 | Apply Now | 2026-08-04 | https://apply.careers.microsoft.com/careers/job/1970393556922930 |
+| Microsoft | Software Engineer: AI/ML & LLM Intern Opportunities for University Students, RedmondUnited States, Washington, RedmondPosted an hour ago : Software Engineer: AI/ML & LLM Intern Opp | Software Engineer: AI/ML & LLM Intern Opportunities for University Students, Redmond | N/A | 4.5/5 | Apply Now | 2026-08-04 | https://apply.careers.microsoft.com/careers/job/1970393556922929 |
+| Microsoft | Software Engineer: Fullstack Product (Web + Services) Intern Opportunities for University Students,United States, Washington, RedmondPosted an hour ago : Software Engineer: Fullsta | United States, Washington, Redmond | N/A | 4.5/5 | Apply Now | 2026-08-04 | https://apply.careers.microsoft.com/careers/job/1970393556922922 |
+
+## Why These Matched
+- Microsoft - Software Engineer: Data Platform/Analytics Intern Opportunities for University Students, RedmondUnited States, Washington, RedmondPosted an hour ago : Software Engineer: Data Platf: high-priority target company; software engineering internship title; backend/platform/infrastructure signal
+- Microsoft - Software Engineer: Cloud & Distributed Backend Intern Opportunities for University Students, RedmondUnited States, Washington, RedmondPosted an hour ago : Software Engineer: Cloud: high-priority target company; software engineering internship title; backend/platform/infrastructure signal
+- Microsoft - Software Engineer: Security & Identity Intern Opportunities for University Students, RedmondUnited States, Washington, RedmondPosted an hour ago : Software Engineer: Security & Ide: high-priority target company; software engineering internship title; North America or remote location
+- Microsoft - Software Engineer: AI/ML & LLM Intern Opportunities for University Students, RedmondUnited States, Washington, RedmondPosted an hour ago : Software Engineer: AI/ML & LLM Intern Opp: high-priority target company; software engineering internship title; North America or remote location
+- Microsoft - Software Engineer: Fullstack Product (Web + Services) Intern Opportunities for University Students,United States, Washington, RedmondPosted an hour ago : Software Engineer: Fullsta: high-priority target company; software engineering internship title; North America or remote location
