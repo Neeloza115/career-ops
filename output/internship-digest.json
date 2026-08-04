@@ -1,77 +1,11 @@
 {
-  "generatedAt": "2026-08-04T01:58:00.257Z",
+  "generatedAt": "2026-08-04T05:47:02.773Z",
   "minScore": 4,
   "summary": {
-    "newRows": 5,
-    "emailedRows": 5,
+    "newRows": 0,
+    "emailedRows": 0,
     "dryRun": false,
     "portalsPath": "config/internship-portals.yml"
   },
-  "items": [
-    {
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556922931",
-      "firstSeen": "2026-08-04",
-      "source": "playwright-careers",
-      "title": "Software Engineer: Data Platform/Analytics Intern Opportunities for University Students, RedmondUnited States, Washington, RedmondPosted an hour ago : Software Engineer: Data Platf",
-      "company": "Microsoft",
-      "status": "added",
-      "location": "Software Engineer: Data Platform/Analytics Intern Opportunities for University Students, Redmond",
-      "term": "",
-      "score": 4.8,
-      "why": "high-priority target company; software engineering internship title; backend/platform/infrastructure signal",
-      "suggestedAction": "Apply Now"
-    },
-    {
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556922923",
-      "firstSeen": "2026-08-04",
-      "source": "playwright-careers",
-      "title": "Software Engineer: Cloud & Distributed Backend Intern Opportunities for University Students, RedmondUnited States, Washington, RedmondPosted an hour ago : Software Engineer: Cloud",
-      "company": "Microsoft",
-      "status": "added",
-      "location": "Software Engineer: Cloud & Distributed Backend Intern Opportunities for University Students, Redmond",
-      "term": "",
-      "score": 4.8,
-      "why": "high-priority target company; software engineering internship title; backend/platform/infrastructure signal",
-      "suggestedAction": "Apply Now"
-    },
-    {
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556922930",
-      "firstSeen": "2026-08-04",
-      "source": "playwright-careers",
-      "title": "Software Engineer: Security & Identity Intern Opportunities for University Students, RedmondUnited States, Washington, RedmondPosted an hour ago : Software Engineer: Security & Ide",
-      "company": "Microsoft",
-      "status": "added",
-      "location": "Software Engineer: Security & Identity Intern Opportunities for University Students, Redmond",
-      "term": "",
-      "score": 4.5,
-      "why": "high-priority target company; software engineering internship title; North America or remote location",
-      "suggestedAction": "Apply Now"
-    },
-    {
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556922929",
-      "firstSeen": "2026-08-04",
-      "source": "playwright-careers",
-      "title": "Software Engineer: AI/ML & LLM Intern Opportunities for University Students, RedmondUnited States, Washington, RedmondPosted an hour ago : Software Engineer: AI/ML & LLM Intern Opp",
-      "company": "Microsoft",
-      "status": "added",
-      "location": "Software Engineer: AI/ML & LLM Intern Opportunities for University Students, Redmond",
-      "term": "",
-      "score": 4.5,
-      "why": "high-priority target company; software engineering internship title; North America or remote location",
-      "suggestedAction": "Apply Now"
-    },
-    {
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556922922",
-      "firstSeen": "2026-08-04",
-      "source": "playwright-careers",
-      "title": "Software Engineer: Fullstack Product (Web + Services) Intern Opportunities for University Students,United States, Washington, RedmondPosted an hour ago : Software Engineer: Fullsta",
-      "company": "Microsoft",
-      "status": "added",
-      "location": "United States, Washington, Redmond",
-      "term": "",
-      "score": 4.5,
-      "why": "high-priority target company; software engineering internship title; North America or remote location",
-      "suggestedAction": "Apply Now"
-    }
-  ]
+  "items": []
 }
