@@ -1,25 +1,11 @@
 {
-  "generatedAt": "2026-08-05T19:24:53.663Z",
+  "generatedAt": "2026-08-05T22:12:59.041Z",
   "minScore": 4,
   "summary": {
-    "newRows": 1,
-    "emailedRows": 1,
+    "newRows": 0,
+    "emailedRows": 0,
     "dryRun": false,
     "portalsPath": "config/internship-portals.yml"
   },
-  "items": [
-    {
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295",
-      "firstSeen": "2026-08-05",
-      "source": "workday-api",
-      "title": "Software Engineering Intern, Dynamo - Fall 2026",
-      "company": "NVIDIA",
-      "status": "added",
-      "location": "US, CA, Santa Clara",
-      "term": "",
-      "score": 4.5,
-      "why": "high-priority target company; software engineering internship title; internship term signal",
-      "suggestedAction": "Apply Now"
-    }
-  ]
+  "items": []
 }
