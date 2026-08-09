@@ -119,4 +119,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Software-Engineering-Intern--Dynamo---Fall-2026_JR2022295 | NVIDIA | Software Engineering Intern, Dynamo - Fall 2026 | US, CA, Santa Clara
 
+- [ ] https://www.janestreet.com/join-jane-street/position/8626146002/ | Jane Street | Linux Engineer Internship, London www.janestreet.com/join-jane-street/position/8626146002/ Open Roles As an intern, you'll be paired with ... Our purposeful blending of in-house an | As an intern, you'll be paired with ... Our purposeful blending of in-house and open source software allows us to investigate and innovate at every level.
+
 ## Processed
