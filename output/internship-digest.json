@@ -1,11 +1,25 @@
 {
-  "generatedAt": "2026-08-14T12:54:22.646Z",
+  "generatedAt": "2026-08-14T15:49:21.863Z",
   "minScore": 4,
   "summary": {
-    "newRows": 0,
-    "emailedRows": 0,
+    "newRows": 1,
+    "emailedRows": 1,
     "dryRun": false,
     "portalsPath": "config/internship-portals.yml"
   },
-  "items": []
+  "items": [
+    {
+      "url": "https://jobs.ericsson.com/careers/job/563121776668174",
+      "firstSeen": "2026-08-14",
+      "source": "playwright-careers",
+      "title": "Software Developer InternPlano,Texas,United StatesService DeliveryPosted an hour ago : Software Developer Intern",
+      "company": "Ericsson",
+      "status": "added",
+      "location": "Plano,Texas,United States",
+      "term": "",
+      "score": 4.5,
+      "why": "high-priority target company; software engineering internship title; North America or remote location",
+      "suggestedAction": "Apply Now"
+    }
+  ]
 }

@@ -121,4 +121,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://www.janestreet.com/join-jane-street/position/8626146002/ | Jane Street | Linux Engineer Internship, London www.janestreet.com/join-jane-street/position/8626146002/ Open Roles As an intern, you'll be paired with ... Our purposeful blending of in-house an | As an intern, you'll be paired with ... Our purposeful blending of in-house and open source software allows us to investigate and innovate at every level.
 
+- [ ] https://jobs.ericsson.com/careers/job/563121776668174 | Ericsson | Software Developer InternPlano,Texas,United StatesService DeliveryPosted an hour ago : Software Developer Intern | Plano,Texas,United States
+
 ## Processed
