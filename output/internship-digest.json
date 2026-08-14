@@ -1,11 +1,38 @@
 {
-  "generatedAt": "2026-08-14T18:48:48.447Z",
+  "generatedAt": "2026-08-14T21:24:02.456Z",
   "minScore": 4,
   "summary": {
-    "newRows": 0,
-    "emailedRows": 0,
+    "newRows": 2,
+    "emailedRows": 2,
     "dryRun": false,
     "portalsPath": "config/internship-portals.yml"
   },
-  "items": []
+  "items": [
+    {
+      "url": "https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c",
+      "firstSeen": "2026-08-14",
+      "source": "playwright-careers",
+      "title": "Software Engineer Intern (Summer 2027)San Francisco, California; New York, New York",
+      "company": "Notion",
+      "status": "added",
+      "location": "San Francisco, California; New York, New York",
+      "term": "Summer 2027",
+      "score": 4.6,
+      "why": "strong unicorn or AI infrastructure target; software engineering internship title; internship term signal",
+      "suggestedAction": "Apply Now"
+    },
+    {
+      "url": "https://jobs.ashbyhq.com/notion/e66c6658-9e65-4c58-8db2-844628b6e8f8",
+      "firstSeen": "2026-08-14",
+      "source": "playwright-careers",
+      "title": "Software Engineer Intern (Winter 2027)San Francisco, California; New York, New York",
+      "company": "Notion",
+      "status": "added",
+      "location": "San Francisco, California; New York, New York",
+      "term": "Winter 2027",
+      "score": 4.6,
+      "why": "strong unicorn or AI infrastructure target; software engineering internship title; internship term signal",
+      "suggestedAction": "Apply Now"
+    }
+  ]
 }
