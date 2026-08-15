@@ -126,4 +126,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c | Notion | Software Engineer Intern (Summer 2027)San Francisco, California; New York, New York | San Francisco, California; New York, New York
 - [ ] https://jobs.ashbyhq.com/notion/e66c6658-9e65-4c58-8db2-844628b6e8f8 | Notion | Software Engineer Intern (Winter 2027)San Francisco, California; New York, New York | San Francisco, California; New York, New York
 
+- [ ] https://www.janestreet.com/join-jane-street/position/8419303002/ | Jane Street | Software Engineer, New York www.janestreet.com/join-jane-street/position/8419303002/ Open Roles Software Engineer Internship, January-April. LOCATION. New York ... As a Software En | Software Engineer, New York
+
 ## Processed

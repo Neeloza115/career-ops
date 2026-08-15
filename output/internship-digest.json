@@ -1,37 +1,24 @@
 {
-  "generatedAt": "2026-08-14T21:24:02.456Z",
+  "generatedAt": "2026-08-15T00:56:04.939Z",
   "minScore": 4,
   "summary": {
-    "newRows": 2,
-    "emailedRows": 2,
+    "newRows": 1,
+    "emailedRows": 1,
     "dryRun": false,
     "portalsPath": "config/internship-portals.yml"
   },
   "items": [
     {
-      "url": "https://jobs.ashbyhq.com/notion/3fba1c39-c5cb-47d7-9ad2-1cec4d7e9d0c",
-      "firstSeen": "2026-08-14",
+      "url": "https://www.janestreet.com/join-jane-street/position/8419303002/",
+      "firstSeen": "2026-08-15",
       "source": "playwright-careers",
-      "title": "Software Engineer Intern (Summer 2027)San Francisco, California; New York, New York",
-      "company": "Notion",
+      "title": "Software Engineer, New York www.janestreet.com/join-jane-street/position/8419303002/ Open Roles Software Engineer Internship, January-April. LOCATION. New York ... As a Software En",
+      "company": "Jane Street",
       "status": "added",
-      "location": "San Francisco, California; New York, New York",
-      "term": "Summer 2027",
-      "score": 4.6,
-      "why": "strong unicorn or AI infrastructure target; software engineering internship title; internship term signal",
-      "suggestedAction": "Apply Now"
-    },
-    {
-      "url": "https://jobs.ashbyhq.com/notion/e66c6658-9e65-4c58-8db2-844628b6e8f8",
-      "firstSeen": "2026-08-14",
-      "source": "playwright-careers",
-      "title": "Software Engineer Intern (Winter 2027)San Francisco, California; New York, New York",
-      "company": "Notion",
-      "status": "added",
-      "location": "San Francisco, California; New York, New York",
-      "term": "Winter 2027",
-      "score": 4.6,
-      "why": "strong unicorn or AI infrastructure target; software engineering internship title; internship term signal",
+      "location": "Software Engineer, New York",
+      "term": "",
+      "score": 4.5,
+      "why": "quant/trading target; software engineering internship title; North America or remote location",
       "suggestedAction": "Apply Now"
     }
   ]
