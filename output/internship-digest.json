@@ -1,25 +1,11 @@
 {
-  "generatedAt": "2026-08-15T00:56:04.939Z",
+  "generatedAt": "2026-08-15T03:37:57.460Z",
   "minScore": 4,
   "summary": {
-    "newRows": 1,
-    "emailedRows": 1,
+    "newRows": 0,
+    "emailedRows": 0,
     "dryRun": false,
     "portalsPath": "config/internship-portals.yml"
   },
-  "items": [
-    {
-      "url": "https://www.janestreet.com/join-jane-street/position/8419303002/",
-      "firstSeen": "2026-08-15",
-      "source": "playwright-careers",
-      "title": "Software Engineer, New York www.janestreet.com/join-jane-street/position/8419303002/ Open Roles Software Engineer Internship, January-April. LOCATION. New York ... As a Software En",
-      "company": "Jane Street",
-      "status": "added",
-      "location": "Software Engineer, New York",
-      "term": "",
-      "score": 4.5,
-      "why": "quant/trading target; software engineering internship title; North America or remote location",
-      "suggestedAction": "Apply Now"
-    }
-  ]
+  "items": []
 }
