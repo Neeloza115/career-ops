@@ -1,11 +1,25 @@
 {
-  "generatedAt": "2026-08-16T12:29:55.693Z",
+  "generatedAt": "2026-08-16T15:20:12.403Z",
   "minScore": 4,
   "summary": {
-    "newRows": 0,
-    "emailedRows": 0,
+    "newRows": 1,
+    "emailedRows": 1,
     "dryRun": false,
     "portalsPath": "config/internship-portals.yml"
   },
-  "items": []
+  "items": [
+    {
+      "url": "https://jobs.ericsson.com/careers/job/563121776667638",
+      "firstSeen": "2026-08-16",
+      "source": "playwright-careers",
+      "title": "Cloud AI Engineer InternPlano,Texas,United StatesService DeliveryPosted 4 hours ago : Cloud AI Engineer Intern",
+      "company": "Ericsson",
+      "status": "added",
+      "location": "Plano,Texas,United States",
+      "term": "",
+      "score": 4.3,
+      "why": "high-priority target company; backend/platform/infrastructure signal; North America or remote location",
+      "suggestedAction": "Review"
+    }
+  ]
 }

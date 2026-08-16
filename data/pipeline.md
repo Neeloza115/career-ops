@@ -128,4 +128,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://www.janestreet.com/join-jane-street/position/8419303002/ | Jane Street | Software Engineer, New York www.janestreet.com/join-jane-street/position/8419303002/ Open Roles Software Engineer Internship, January-April. LOCATION. New York ... As a Software En | Software Engineer, New York
 
+- [ ] https://jobs.ericsson.com/careers/job/563121776667638 | Ericsson | Cloud AI Engineer InternPlano,Texas,United StatesService DeliveryPosted 4 hours ago : Cloud AI Engineer Intern | Plano,Texas,United States
+
 ## Processed
