@@ -1,38 +1,11 @@
 {
-  "generatedAt": "2026-08-18T12:36:39.801Z",
+  "generatedAt": "2026-08-18T15:29:40.835Z",
   "minScore": 4,
   "summary": {
-    "newRows": 2,
-    "emailedRows": 2,
+    "newRows": 0,
+    "emailedRows": 0,
     "dryRun": false,
     "portalsPath": "config/internship-portals.yml"
   },
-  "items": [
-    {
-      "url": "https://www.google.com/about/careers/applications/jobs/results/93078491720753862-software-engineering-phd-intern-2027?q=software%20engineer%20intern",
-      "firstSeen": "2026-08-18",
-      "source": "playwright-careers",
-      "title": "about Software Engineering PhD Intern, 2027",
-      "company": "Google",
-      "status": "added",
-      "location": "",
-      "term": "2027",
-      "score": 4.5,
-      "why": "high-priority target company; software engineering internship title; internship term signal",
-      "suggestedAction": "Apply Now"
-    },
-    {
-      "url": "https://www.google.com/about/careers/applications/jobs/results/93078491720753862-software-engineering-phd-intern-2027?q=software%20intern",
-      "firstSeen": "2026-08-18",
-      "source": "playwright-careers",
-      "title": "about Software Engineering PhD Intern, 2027",
-      "company": "Google",
-      "status": "added",
-      "location": "",
-      "term": "2027",
-      "score": 4.5,
-      "why": "high-priority target company; software engineering internship title; internship term signal",
-      "suggestedAction": "Apply Now"
-    }
-  ]
+  "items": []
 }
