@@ -1,64 +1,11 @@
 {
-  "generatedAt": "2026-08-19T12:38:24.968Z",
+  "generatedAt": "2026-08-19T21:33:52.883Z",
   "minScore": 4,
   "summary": {
-    "newRows": 4,
-    "emailedRows": 4,
+    "newRows": 0,
+    "emailedRows": 0,
     "dryRun": false,
     "portalsPath": "config/internship-portals.yml"
   },
-  "items": [
-    {
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Systems-Software-Engineering_JR2023492",
-      "firstSeen": "2026-08-19",
-      "source": "workday-api",
-      "title": "NVIDIA 2027 Internships: Systems Software Engineering",
-      "company": "NVIDIA",
-      "status": "added",
-      "location": "US, CA, Santa Clara",
-      "term": "2027",
-      "score": 4.9,
-      "why": "high-priority target company; software engineering internship title; backend/platform/infrastructure signal",
-      "suggestedAction": "Apply Now"
-    },
-    {
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Software-Engineering_JR2023495",
-      "firstSeen": "2026-08-19",
-      "source": "workday-api",
-      "title": "NVIDIA 2027 Internships: Software Engineering",
-      "company": "NVIDIA",
-      "status": "added",
-      "location": "US, CA, Santa Clara",
-      "term": "2027",
-      "score": 4.5,
-      "why": "high-priority target company; software engineering internship title; internship term signal",
-      "suggestedAction": "Apply Now"
-    },
-    {
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--PhD-Research-Computer-Architecture-and-Systems_JR2023854",
-      "firstSeen": "2026-08-19",
-      "source": "workday-api",
-      "title": "NVIDIA 2027 Internships: Ph.D. Research Computer Architecture and Systems",
-      "company": "NVIDIA",
-      "status": "added",
-      "location": "US, CA, Santa Clara",
-      "term": "2027",
-      "score": 4.3,
-      "why": "high-priority target company; backend/platform/infrastructure signal; internship term signal",
-      "suggestedAction": "Review"
-    },
-    {
-      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-Spring-2027-Internships--Developer-and-Performance-Technology_JR2023499",
-      "firstSeen": "2026-08-19",
-      "source": "workday-api",
-      "title": "NVIDIA Spring 2027 Internships: Developer and Performance Technology",
-      "company": "NVIDIA",
-      "status": "added",
-      "location": "US, CA, Santa Clara",
-      "term": "Spring 2027",
-      "score": 4,
-      "why": "high-priority target company; internship term signal",
-      "suggestedAction": "Review"
-    }
-  ]
+  "items": []
 }
