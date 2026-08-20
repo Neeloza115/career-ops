@@ -151,4 +151,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Systems-Software-Engineering_JR2023492 | NVIDIA | NVIDIA 2027 Internships: Systems Software Engineering | US, CA, Santa Clara
 - [ ] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-Spring-2027-Internships--Developer-and-Performance-Technology_JR2023499 | NVIDIA | NVIDIA Spring 2027 Internships: Developer and Performance Technology | US, CA, Santa Clara
 
+- [ ] https://jobs.ericsson.com/careers/job/563121776668598 | Ericsson | Software Engineering InternPlano,Texas,United StatesService DeliveryPosted 3 hours ago : Software Engineering Intern | Plano,Texas,United States
+
 ## Processed
