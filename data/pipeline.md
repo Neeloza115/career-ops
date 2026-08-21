@@ -155,4 +155,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://databricks.com/company/careers/open-positions/job?gh_jid=8732364002 | Databricks | Software Engineering Intern (2027 Start) - Winter | Bellevue, Washington; Mountain View, California; San Francisco, California
 
+- [ ] https://www.samsara.com/company/careers/roles/8099799?gh_jid=8099799&gh_board=samsara | Samsara | Account Development Representative Intern - PhoenixPhoenix, Arizona, United States | Phoenix, Arizona, United States
+- [ ] https://www.samsara.com/company/careers/roles/8103119?gh_jid=8103119&gh_board=samsara | Samsara | Account Development Representative Intern - AtlantaAtlanta, Georgia, United States | Atlanta, Georgia, United States
+
 ## Processed
