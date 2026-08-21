@@ -1,11 +1,25 @@
 {
-  "generatedAt": "2026-08-20T21:26:24.689Z",
+  "generatedAt": "2026-08-21T00:59:25.828Z",
   "minScore": 4,
   "summary": {
-    "newRows": 0,
-    "emailedRows": 0,
+    "newRows": 1,
+    "emailedRows": 1,
     "dryRun": false,
     "portalsPath": "config/internship-portals.yml"
   },
-  "items": []
+  "items": [
+    {
+      "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8732364002",
+      "firstSeen": "2026-08-21",
+      "source": "greenhouse-api",
+      "title": "Software Engineering Intern (2027 Start) - Winter",
+      "company": "Databricks",
+      "status": "added",
+      "location": "Bellevue, Washington; Mountain View, California; San Francisco, California",
+      "term": "2027",
+      "score": 4.7,
+      "why": "high-priority target company; software engineering internship title; internship term signal",
+      "suggestedAction": "Apply Now"
+    }
+  ]
 }

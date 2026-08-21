@@ -153,4 +153,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://jobs.ericsson.com/careers/job/563121776668598 | Ericsson | Software Engineering InternPlano,Texas,United StatesService DeliveryPosted 3 hours ago : Software Engineering Intern | Plano,Texas,United States
 
+- [ ] https://databricks.com/company/careers/open-positions/job?gh_jid=8732364002 | Databricks | Software Engineering Intern (2027 Start) - Winter | Bellevue, Washington; Mountain View, California; San Francisco, California
+
 ## Processed
