@@ -165,4 +165,8 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://www.google.com/about/careers/applications/jobs/results/104496653687235270-research-intern-phd-summer-2027?q=software%20intern | Google | about Research Intern, PhD, Summer 2027 | Montreal, QC, Canada
 - [ ] https://www.google.com/about/careers/applications/jobs/results/86701057991680710-research-intern-phd-summer-2027?q=software%20intern | Google | about Research Intern, PhD, Summer 2027 | Mountain View, CA, USA
 
+- [ ] https://www.google.com/about/careers/applications/jobs/results/91436104816698054-software-engineering-intern-phd-summer-2027?q=software%20engineer%20intern | Google | about Software Engineering Intern, PhD, Summer 2027 | Mountain View, CA, USA
+- [ ] https://www.google.com/about/careers/applications/jobs/results/86701057991680710-research-intern-phd-summer-2027?q=software%20engineer%20intern | Google | about Research Intern, PhD, Summer 2027 | Mountain View, CA, USA
+- [ ] https://www.google.com/about/careers/applications/jobs/results/91436104816698054-software-engineering-intern-phd-summer-2027?q=software%20intern | Google | about Software Engineering Intern, PhD, Summer 2027 | Mountain View, CA, USA
+
 ## Processed
