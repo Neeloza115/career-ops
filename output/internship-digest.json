@@ -1,76 +1,24 @@
 {
-  "generatedAt": "2026-08-25T18:35:18.899Z",
+  "generatedAt": "2026-08-25T21:26:01.502Z",
   "minScore": 4,
   "summary": {
-    "newRows": 5,
-    "emailedRows": 5,
+    "newRows": 1,
+    "emailedRows": 1,
     "dryRun": false,
     "portalsPath": "config/internship-portals.yml"
   },
   "items": [
     {
-      "url": "https://job-boards.greenhouse.io/verkada/jobs/5210813007",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556979054",
       "firstSeen": "2026-08-25",
-      "source": "greenhouse-api",
-      "title": "Backend Software Engineering Intern 2027",
-      "company": "Verkada",
+      "source": "playwright-careers",
+      "title": "AI Software Engineering Intern",
+      "company": "Microsoft",
       "status": "added",
-      "location": "San Mateo, CA United States",
-      "term": "2027",
-      "score": 4.9,
-      "why": "strong unicorn or AI infrastructure target; software engineering internship title; backend/platform/infrastructure signal",
-      "suggestedAction": "Apply Now"
-    },
-    {
-      "url": "https://job-boards.greenhouse.io/verkada/jobs/5211595007",
-      "firstSeen": "2026-08-25",
-      "source": "greenhouse-api",
-      "title": "Embedded Software Engineering Intern 2027",
-      "company": "Verkada",
-      "status": "added",
-      "location": "San Mateo, CA United States",
-      "term": "2027",
-      "score": 4.6,
-      "why": "strong unicorn or AI infrastructure target; software engineering internship title; internship term signal",
-      "suggestedAction": "Apply Now"
-    },
-    {
-      "url": "https://job-boards.greenhouse.io/verkada/jobs/5210942007",
-      "firstSeen": "2026-08-25",
-      "source": "greenhouse-api",
-      "title": "Frontend Software Engineering Intern 2027",
-      "company": "Verkada",
-      "status": "added",
-      "location": "San Mateo, CA United States",
-      "term": "2027",
-      "score": 4.6,
-      "why": "strong unicorn or AI infrastructure target; software engineering internship title; internship term signal",
-      "suggestedAction": "Apply Now"
-    },
-    {
-      "url": "https://job-boards.greenhouse.io/verkada/jobs/5219131007",
-      "firstSeen": "2026-08-25",
-      "source": "greenhouse-api",
-      "title": "Mobile Software Engineering Intern 2027",
-      "company": "Verkada",
-      "status": "added",
-      "location": "San Mateo, CA United States",
-      "term": "2027",
-      "score": 4.6,
-      "why": "strong unicorn or AI infrastructure target; software engineering internship title; internship term signal",
-      "suggestedAction": "Apply Now"
-    },
-    {
-      "url": "https://job-boards.greenhouse.io/verkada/jobs/5213881007",
-      "firstSeen": "2026-08-25",
-      "source": "greenhouse-api",
-      "title": "Security Software Engineering Intern 2027",
-      "company": "Verkada",
-      "status": "added",
-      "location": "San Mateo, CA United States",
-      "term": "2027",
-      "score": 4.6,
-      "why": "strong unicorn or AI infrastructure target; software engineering internship title; internship term signal",
+      "location": "United States, Washington, Redmond + 1 more",
+      "term": "",
+      "score": 4.5,
+      "why": "high-priority target company; software engineering internship title; North America or remote location",
       "suggestedAction": "Apply Now"
     }
   ]

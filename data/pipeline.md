@@ -175,4 +175,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://job-boards.greenhouse.io/verkada/jobs/5219131007 | Verkada | Mobile Software Engineering Intern 2027 | San Mateo, CA United States
 - [ ] https://job-boards.greenhouse.io/verkada/jobs/5213881007 | Verkada | Security Software Engineering Intern 2027 | San Mateo, CA United States
 
+- [ ] https://apply.careers.microsoft.com/careers/job/1970393556979054 | Microsoft | AI Software Engineering Intern | United States, Washington, Redmond + 1 more
+
 ## Processed

@@ -1,18 +1,10 @@
 # 2027 Internship Digest - 2026-08-25
 
-New matching postings: 5
+New matching postings: 1
 
 | Company | Role | Location | Term | Score | Action | Date Found | URL |
 |---|---|---|---|---:|---|---|---|
-| Verkada | Backend Software Engineering Intern 2027 | San Mateo, CA United States | 2027 | 4.9/5 | Apply Now | 2026-08-25 | https://job-boards.greenhouse.io/verkada/jobs/5210813007 |
-| Verkada | Embedded Software Engineering Intern 2027 | San Mateo, CA United States | 2027 | 4.6/5 | Apply Now | 2026-08-25 | https://job-boards.greenhouse.io/verkada/jobs/5211595007 |
-| Verkada | Frontend Software Engineering Intern 2027 | San Mateo, CA United States | 2027 | 4.6/5 | Apply Now | 2026-08-25 | https://job-boards.greenhouse.io/verkada/jobs/5210942007 |
-| Verkada | Mobile Software Engineering Intern 2027 | San Mateo, CA United States | 2027 | 4.6/5 | Apply Now | 2026-08-25 | https://job-boards.greenhouse.io/verkada/jobs/5219131007 |
-| Verkada | Security Software Engineering Intern 2027 | San Mateo, CA United States | 2027 | 4.6/5 | Apply Now | 2026-08-25 | https://job-boards.greenhouse.io/verkada/jobs/5213881007 |
+| Microsoft | AI Software Engineering Intern | United States, Washington, Redmond + 1 more | N/A | 4.5/5 | Apply Now | 2026-08-25 | https://apply.careers.microsoft.com/careers/job/1970393556979054 |
 
 ## Why These Matched
-- Verkada - Backend Software Engineering Intern 2027: strong unicorn or AI infrastructure target; software engineering internship title; backend/platform/infrastructure signal
-- Verkada - Embedded Software Engineering Intern 2027: strong unicorn or AI infrastructure target; software engineering internship title; internship term signal
-- Verkada - Frontend Software Engineering Intern 2027: strong unicorn or AI infrastructure target; software engineering internship title; internship term signal
-- Verkada - Mobile Software Engineering Intern 2027: strong unicorn or AI infrastructure target; software engineering internship title; internship term signal
-- Verkada - Security Software Engineering Intern 2027: strong unicorn or AI infrastructure target; software engineering internship title; internship term signal
+- Microsoft - AI Software Engineering Intern: high-priority target company; software engineering internship title; North America or remote location
