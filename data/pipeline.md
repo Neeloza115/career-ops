@@ -177,4 +177,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://apply.careers.microsoft.com/careers/job/1970393556979054 | Microsoft | AI Software Engineering Intern | United States, Washington, Redmond + 1 more
 
+- [ ] https://jobs.ericsson.com/careers/job/563121776668074 | Ericsson | AI Software Engineer Intern | Plano,Texas,United States
+- [ ] https://jobs.ericsson.com/careers/job/563121776669260 | Ericsson | SWE Automation Intern | Plano,Texas,United States
+
 ## Processed
