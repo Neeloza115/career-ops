@@ -1,25 +1,11 @@
 {
-  "generatedAt": "2026-08-28T00:16:51.263Z",
+  "generatedAt": "2026-08-28T14:52:03.959Z",
   "minScore": 4,
   "summary": {
-    "newRows": 1,
-    "emailedRows": 1,
+    "newRows": 0,
+    "emailedRows": 0,
     "dryRun": false,
     "portalsPath": "config/internship-portals.yml"
   },
-  "items": [
-    {
-      "url": "https://jobs.ericsson.com/careers/job/563121776667928",
-      "firstSeen": "2026-08-28",
-      "source": "playwright-careers",
-      "title": "Software Engineer AIML-Intern",
-      "company": "Ericsson",
-      "status": "added",
-      "location": "Plano,Texas,United States",
-      "term": "",
-      "score": 4.5,
-      "why": "high-priority target company; software engineering internship title; North America or remote location",
-      "suggestedAction": "Apply Now"
-    }
-  ]
+  "items": []
 }
