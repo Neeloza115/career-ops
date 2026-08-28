@@ -180,4 +180,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://jobs.ericsson.com/careers/job/563121776668074 | Ericsson | AI Software Engineer Intern | Plano,Texas,United States
 - [ ] https://jobs.ericsson.com/careers/job/563121776669260 | Ericsson | SWE Automation Intern | Plano,Texas,United States
 
+- [ ] https://jobs.ericsson.com/careers/job/563121776667928 | Ericsson | Software Engineer AIML-Intern | Plano,Texas,United States
+
 ## Processed

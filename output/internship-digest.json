@@ -1,31 +1,18 @@
 {
-  "generatedAt": "2026-08-27T13:32:51.590Z",
+  "generatedAt": "2026-08-28T00:16:51.263Z",
   "minScore": 4,
   "summary": {
-    "newRows": 2,
-    "emailedRows": 2,
+    "newRows": 1,
+    "emailedRows": 1,
     "dryRun": false,
     "portalsPath": "config/internship-portals.yml"
   },
   "items": [
     {
-      "url": "https://jobs.ericsson.com/careers/job/563121776668074",
-      "firstSeen": "2026-08-27",
+      "url": "https://jobs.ericsson.com/careers/job/563121776667928",
+      "firstSeen": "2026-08-28",
       "source": "playwright-careers",
-      "title": "AI Software Engineer Intern",
-      "company": "Ericsson",
-      "status": "added",
-      "location": "Plano,Texas,United States",
-      "term": "",
-      "score": 4.5,
-      "why": "high-priority target company; software engineering internship title; North America or remote location",
-      "suggestedAction": "Apply Now"
-    },
-    {
-      "url": "https://jobs.ericsson.com/careers/job/563121776669260",
-      "firstSeen": "2026-08-27",
-      "source": "playwright-careers",
-      "title": "SWE Automation Intern",
+      "title": "Software Engineer AIML-Intern",
       "company": "Ericsson",
       "status": "added",
       "location": "Plano,Texas,United States",
