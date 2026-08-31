@@ -1,4 +1,4 @@
-# 2027 Internship Digest - 2026-08-30
+# 2027 Internship Digest - 2026-08-31
 
 New matching postings: 0
 
