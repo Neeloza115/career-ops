@@ -1,11 +1,64 @@
 {
-  "generatedAt": "2026-08-31T02:53:15.550Z",
+  "generatedAt": "2026-08-31T09:16:01.307Z",
   "minScore": 4,
   "summary": {
-    "newRows": 0,
-    "emailedRows": 0,
+    "newRows": 4,
+    "emailedRows": 4,
     "dryRun": false,
     "portalsPath": "config/internship-portals.yml"
   },
-  "items": []
+  "items": [
+    {
+      "url": "https://www.google.com/about/careers/applications/jobs/results/138960139137753798-software-developer-intern-ms-summer-2027?q=software%20engineer%20intern",
+      "firstSeen": "2026-08-31",
+      "source": "playwright-careers",
+      "title": "about Software Developer Intern, MS, Summer 2027",
+      "company": "Google",
+      "status": "added",
+      "location": "Waterloo, ON, Canada",
+      "term": "Summer 2027",
+      "score": 4.7,
+      "why": "high-priority target company; software engineering internship title; internship term signal",
+      "suggestedAction": "Apply Now"
+    },
+    {
+      "url": "https://www.google.com/about/careers/applications/jobs/results/123510626377966278-software-developer-intern-bs-summer-2027?q=software%20engineer%20intern",
+      "firstSeen": "2026-08-31",
+      "source": "playwright-careers",
+      "title": "about Software Developer Intern, BS, Summer 2027",
+      "company": "Google",
+      "status": "added",
+      "location": "Waterloo, ON, Canada",
+      "term": "Summer 2027",
+      "score": 4.7,
+      "why": "high-priority target company; software engineering internship title; internship term signal",
+      "suggestedAction": "Apply Now"
+    },
+    {
+      "url": "https://www.google.com/about/careers/applications/jobs/results/138960139137753798-software-developer-intern-ms-summer-2027?q=software%20intern",
+      "firstSeen": "2026-08-31",
+      "source": "playwright-careers",
+      "title": "about Software Developer Intern, MS, Summer 2027",
+      "company": "Google",
+      "status": "added",
+      "location": "Waterloo, ON, Canada",
+      "term": "Summer 2027",
+      "score": 4.7,
+      "why": "high-priority target company; software engineering internship title; internship term signal",
+      "suggestedAction": "Apply Now"
+    },
+    {
+      "url": "https://www.google.com/about/careers/applications/jobs/results/123510626377966278-software-developer-intern-bs-summer-2027?q=software%20intern",
+      "firstSeen": "2026-08-31",
+      "source": "playwright-careers",
+      "title": "about Software Developer Intern, BS, Summer 2027",
+      "company": "Google",
+      "status": "added",
+      "location": "Waterloo, ON, Canada",
+      "term": "Summer 2027",
+      "score": 4.7,
+      "why": "high-priority target company; software engineering internship title; internship term signal",
+      "suggestedAction": "Apply Now"
+    }
+  ]
 }

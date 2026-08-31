@@ -182,4 +182,9 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://jobs.ericsson.com/careers/job/563121776667928 | Ericsson | Software Engineer AIML-Intern | Plano,Texas,United States
 
+- [ ] https://www.google.com/about/careers/applications/jobs/results/138960139137753798-software-developer-intern-ms-summer-2027?q=software%20engineer%20intern | Google | about Software Developer Intern, MS, Summer 2027 | Waterloo, ON, Canada
+- [ ] https://www.google.com/about/careers/applications/jobs/results/123510626377966278-software-developer-intern-bs-summer-2027?q=software%20engineer%20intern | Google | about Software Developer Intern, BS, Summer 2027 | Waterloo, ON, Canada
+- [ ] https://www.google.com/about/careers/applications/jobs/results/138960139137753798-software-developer-intern-ms-summer-2027?q=software%20intern | Google | about Software Developer Intern, MS, Summer 2027 | Waterloo, ON, Canada
+- [ ] https://www.google.com/about/careers/applications/jobs/results/123510626377966278-software-developer-intern-bs-summer-2027?q=software%20intern | Google | about Software Developer Intern, BS, Summer 2027 | Waterloo, ON, Canada
+
 ## Processed
