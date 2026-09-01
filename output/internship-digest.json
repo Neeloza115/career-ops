@@ -1,38 +1,11 @@
 {
-  "generatedAt": "2026-09-01T08:16:02.864Z",
+  "generatedAt": "2026-09-01T13:56:06.806Z",
   "minScore": 4,
   "summary": {
-    "newRows": 2,
-    "emailedRows": 2,
+    "newRows": 0,
+    "emailedRows": 0,
     "dryRun": false,
     "portalsPath": "config/internship-portals.yml"
   },
-  "items": [
-    {
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556972687",
-      "firstSeen": "2026-09-01",
-      "source": "playwright-careers",
-      "title": "Software Engineer: Intern Opportunities for University Students - CoreAI - Mountain View, CAUnited States, California, Mountain ViewPosted an hour ago",
-      "company": "Microsoft",
-      "status": "added",
-      "location": "Software Engineer: Intern Opportunities for University Students - CoreAI - Mountain View, CA",
-      "term": "",
-      "score": 4.5,
-      "why": "high-priority target company; software engineering internship title; North America or remote location",
-      "suggestedAction": "Apply Now"
-    },
-    {
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393556972698",
-      "firstSeen": "2026-09-01",
-      "source": "playwright-careers",
-      "title": "Software Engineer: Intern Opportunities for University Students - CoreAI - Boston, MassachusettsUnited States, Massachusetts, BostonPosted an hour ago",
-      "company": "Microsoft",
-      "status": "added",
-      "location": "Software Engineer: Intern Opportunities for University Students - CoreAI - Boston, Massachusetts",
-      "term": "",
-      "score": 4.3,
-      "why": "high-priority target company; software engineering internship title",
-      "suggestedAction": "Review"
-    }
-  ]
+  "items": []
 }
