@@ -192,4 +192,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://www.google.com/about/careers/applications/jobs/results/100648618540573382-software-engineering-intern-bs-summer-2027?q=software%20intern | Google | about Software Engineering Intern, BS, Summer 2027 | Mountain View, CA, USA
 - [ ] https://www.google.com/about/careers/applications/jobs/results/94172495052972742-software-engineering-intern-ms-summer-2027?q=software%20intern | Google | about Software Engineering Intern, MS, Summer 2027 | Mountain View, CA, USA
 
+- [ ] https://stripe.com/jobs/search?gh_jid=8130805 | Stripe | Software Engineer, Intern (Summer or Winter) | Toronto
+
 ## Processed
