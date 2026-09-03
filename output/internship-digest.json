@@ -1,38 +1,11 @@
 {
-  "generatedAt": "2026-09-03T13:15:54.331Z",
+  "generatedAt": "2026-09-03T18:22:03.234Z",
   "minScore": 4,
   "summary": {
-    "newRows": 2,
-    "emailedRows": 2,
+    "newRows": 0,
+    "emailedRows": 0,
     "dryRun": false,
     "portalsPath": "config/internship-portals.yml"
   },
-  "items": [
-    {
-      "url": "https://www.google.com/about/careers/applications/jobs/results/74389446190867142-data-science-phd-intern-2027?q=software%20engineer%20intern",
-      "firstSeen": "2026-09-03",
-      "source": "playwright-careers",
-      "title": "about Data Science PhD Intern, 2027",
-      "company": "Google",
-      "status": "added",
-      "location": "Experience working with datasets using Python, R, SAS, MATLAB, or other statistical software.",
-      "term": "2027",
-      "score": 4,
-      "why": "high-priority target company; internship term signal",
-      "suggestedAction": "Review"
-    },
-    {
-      "url": "https://www.google.com/about/careers/applications/jobs/results/74389446190867142-data-science-phd-intern-2027?q=software%20intern",
-      "firstSeen": "2026-09-03",
-      "source": "playwright-careers",
-      "title": "about Data Science PhD Intern, 2027",
-      "company": "Google",
-      "status": "added",
-      "location": "Experience working with datasets using Python, R, SAS, MATLAB, or other statistical software.",
-      "term": "2027",
-      "score": 4,
-      "why": "high-priority target company; internship term signal",
-      "suggestedAction": "Review"
-    }
-  ]
+  "items": []
 }
