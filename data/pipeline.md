@@ -197,4 +197,7 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://apply.careers.microsoft.com/careers/job/1970393556972687 | Microsoft | Software Engineer: Intern Opportunities for University Students - CoreAI - Mountain View, CAUnited States, California, Mountain ViewPosted an hour ago | Software Engineer: Intern Opportunities for University Students - CoreAI - Mountain View, CA
 - [ ] https://apply.careers.microsoft.com/careers/job/1970393556972698 | Microsoft | Software Engineer: Intern Opportunities for University Students - CoreAI - Boston, MassachusettsUnited States, Massachusetts, BostonPosted an hour ago | Software Engineer: Intern Opportunities for University Students - CoreAI - Boston, Massachusetts
 
+- [ ] https://www.google.com/about/careers/applications/jobs/results/74389446190867142-data-science-phd-intern-2027?q=software%20engineer%20intern | Google | about Data Science PhD Intern, 2027 | Experience working with datasets using Python, R, SAS, MATLAB, or other statistical software.
+- [ ] https://www.google.com/about/careers/applications/jobs/results/74389446190867142-data-science-phd-intern-2027?q=software%20intern | Google | about Data Science PhD Intern, 2027 | Experience working with datasets using Python, R, SAS, MATLAB, or other statistical software.
+
 ## Processed
