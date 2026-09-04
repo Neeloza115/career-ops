@@ -200,4 +200,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://www.google.com/about/careers/applications/jobs/results/74389446190867142-data-science-phd-intern-2027?q=software%20engineer%20intern | Google | about Data Science PhD Intern, 2027 | Experience working with datasets using Python, R, SAS, MATLAB, or other statistical software.
 - [ ] https://www.google.com/about/careers/applications/jobs/results/74389446190867142-data-science-phd-intern-2027?q=software%20intern | Google | about Data Science PhD Intern, 2027 | Experience working with datasets using Python, R, SAS, MATLAB, or other statistical software.
 
+- [ ] https://job-boards.greenhouse.io/scaleai/jobs/4730845005 | Scale AI | Software Engineering Intern (Summer 2027) | San Francisco, CA
+
 ## Processed

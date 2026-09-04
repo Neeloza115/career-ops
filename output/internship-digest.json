@@ -1,11 +1,25 @@
 {
-  "generatedAt": "2026-09-04T13:09:26.671Z",
+  "generatedAt": "2026-09-04T18:03:23.085Z",
   "minScore": 4,
   "summary": {
-    "newRows": 0,
-    "emailedRows": 0,
+    "newRows": 1,
+    "emailedRows": 1,
     "dryRun": false,
     "portalsPath": "config/internship-portals.yml"
   },
-  "items": []
+  "items": [
+    {
+      "url": "https://job-boards.greenhouse.io/scaleai/jobs/4730845005",
+      "firstSeen": "2026-09-04",
+      "source": "greenhouse-api",
+      "title": "Software Engineering Intern (Summer 2027)",
+      "company": "Scale AI",
+      "status": "added",
+      "location": "San Francisco, CA",
+      "term": "Summer 2027",
+      "score": 4.6,
+      "why": "strong unicorn or AI infrastructure target; software engineering internship title; internship term signal",
+      "suggestedAction": "Apply Now"
+    }
+  ]
 }
