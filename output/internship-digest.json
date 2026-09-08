@@ -1,11 +1,38 @@
 {
-  "generatedAt": "2026-09-08T13:18:20.449Z",
+  "generatedAt": "2026-09-08T18:19:28.414Z",
   "minScore": 4,
   "summary": {
-    "newRows": 0,
-    "emailedRows": 0,
+    "newRows": 2,
+    "emailedRows": 2,
     "dryRun": false,
     "portalsPath": "config/internship-portals.yml"
   },
-  "items": []
+  "items": [
+    {
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/6181759004",
+      "firstSeen": "2026-09-08",
+      "source": "greenhouse-api",
+      "title": "Software Engineering Intern - Summer '27",
+      "company": "Vercel",
+      "status": "added",
+      "location": "Hybrid - San Francisco",
+      "term": "",
+      "score": 4.6,
+      "why": "strong unicorn or AI infrastructure target; software engineering internship title; internship term signal",
+      "suggestedAction": "Apply Now"
+    },
+    {
+      "url": "https://job-boards.greenhouse.io/vercel/jobs/6181755004",
+      "firstSeen": "2026-09-08",
+      "source": "greenhouse-api",
+      "title": "Software Engineering Intern - Winter '27",
+      "company": "Vercel",
+      "status": "added",
+      "location": "Hybrid - San Francisco",
+      "term": "",
+      "score": 4.6,
+      "why": "strong unicorn or AI infrastructure target; software engineering internship title; internship term signal",
+      "suggestedAction": "Apply Now"
+    }
+  ]
 }
