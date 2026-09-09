@@ -1,11 +1,25 @@
 {
-  "generatedAt": "2026-09-09T07:49:48.831Z",
+  "generatedAt": "2026-09-09T13:24:00.353Z",
   "minScore": 4,
   "summary": {
-    "newRows": 0,
-    "emailedRows": 0,
+    "newRows": 1,
+    "emailedRows": 1,
     "dryRun": false,
     "portalsPath": "config/internship-portals.yml"
   },
-  "items": []
+  "items": [
+    {
+      "url": "https://jobs.ericsson.com/careers/job/563121777131495",
+      "firstSeen": "2026-09-09",
+      "source": "playwright-careers",
+      "title": "Software Developer Co-op",
+      "company": "Ericsson",
+      "status": "added",
+      "location": "Ottawa,Ontario,Canada",
+      "term": "",
+      "score": 4.5,
+      "why": "high-priority target company; software engineering internship title; North America or remote location",
+      "suggestedAction": "Apply Now"
+    }
+  ]
 }
