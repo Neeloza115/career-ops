@@ -206,4 +206,5 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://job-boards.greenhouse.io/vercel/jobs/6181755004 | Vercel | Software Engineering Intern - Winter '27 | Hybrid - San Francisco
 
 
+
 ## Processed
