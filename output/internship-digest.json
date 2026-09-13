@@ -1,11 +1,25 @@
 {
-  "generatedAt": "2026-09-13T20:10:40.239Z",
+  "generatedAt": "2026-09-13T22:50:50.189Z",
   "minScore": 4,
   "summary": {
-    "newRows": 0,
-    "emailedRows": 0,
+    "newRows": 1,
+    "emailedRows": 1,
     "dryRun": false,
     "portalsPath": "config/internship-portals.yml"
   },
-  "items": []
+  "items": [
+    {
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Research-Intern--Autonomous-Systems-and-Physical-AI-Research---2027_JR2024171",
+      "firstSeen": "2026-09-13",
+      "source": "workday-api",
+      "title": "PhD Research Intern, Autonomous Systems and Physical AI Research - 2027",
+      "company": "NVIDIA",
+      "status": "added",
+      "location": "US, CA, Santa Clara",
+      "term": "2027",
+      "score": 4.3,
+      "why": "high-priority target company; backend/platform/infrastructure signal; internship term signal",
+      "suggestedAction": "Review"
+    }
+  ]
 }
