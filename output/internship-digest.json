@@ -1,11 +1,116 @@
 {
-  "generatedAt": "2026-09-14T08:31:00.290Z",
+  "generatedAt": "2026-09-14T15:39:25.863Z",
   "minScore": 4,
   "summary": {
-    "newRows": 0,
-    "emailedRows": 0,
+    "newRows": 8,
+    "emailedRows": 8,
     "dryRun": false,
     "portalsPath": "config/internship-portals.yml"
   },
-  "items": []
+  "items": [
+    {
+      "url": "https://boards.greenhouse.io/robinhood/jobs/8142930?t=gh_src=&gh_jid=8142930",
+      "firstSeen": "2026-09-14",
+      "source": "greenhouse-api",
+      "title": "Software Developer Intern, Backend (Summer 2027)",
+      "company": "Robinhood",
+      "status": "added",
+      "location": "Toronto, Canada",
+      "term": "Summer 2027",
+      "score": 5,
+      "why": "high-priority target company; software engineering internship title; backend/platform/infrastructure signal",
+      "suggestedAction": "Apply Now"
+    },
+    {
+      "url": "https://boards.greenhouse.io/robinhood/jobs/8194428?t=gh_src=&gh_jid=8194428",
+      "firstSeen": "2026-09-14",
+      "source": "greenhouse-api",
+      "title": "Software Developer Intern/Co-op, Backend (Winter 2027)",
+      "company": "Robinhood",
+      "status": "added",
+      "location": "Toronto, Canada",
+      "term": "Winter 2027",
+      "score": 5,
+      "why": "high-priority target company; software engineering internship title; backend/platform/infrastructure signal",
+      "suggestedAction": "Apply Now"
+    },
+    {
+      "url": "https://boards.greenhouse.io/robinhood/jobs/8123225?t=gh_src=&gh_jid=8123225",
+      "firstSeen": "2026-09-14",
+      "source": "greenhouse-api",
+      "title": "Software Engineering Intern, Backend (Summer 2027)",
+      "company": "Robinhood",
+      "status": "added",
+      "location": "Bellevue, WA; Menlo Park, CA; New York, NY",
+      "term": "Summer 2027",
+      "score": 5,
+      "why": "high-priority target company; software engineering internship title; backend/platform/infrastructure signal",
+      "suggestedAction": "Apply Now"
+    },
+    {
+      "url": "https://boards.greenhouse.io/robinhood/jobs/8199729?t=gh_src=&gh_jid=8199729",
+      "firstSeen": "2026-09-14",
+      "source": "greenhouse-api",
+      "title": "Software Developer Intern, iOS (Summer 2027)",
+      "company": "Robinhood",
+      "status": "added",
+      "location": "Toronto, Canada",
+      "term": "Summer 2027",
+      "score": 4.7,
+      "why": "high-priority target company; software engineering internship title; internship term signal",
+      "suggestedAction": "Apply Now"
+    },
+    {
+      "url": "https://boards.greenhouse.io/robinhood/jobs/8199744?t=gh_src=&gh_jid=8199744",
+      "firstSeen": "2026-09-14",
+      "source": "greenhouse-api",
+      "title": "Software Developer Intern, Web (Summer 2027)",
+      "company": "Robinhood",
+      "status": "added",
+      "location": "Toronto, Canada",
+      "term": "Summer 2027",
+      "score": 4.7,
+      "why": "high-priority target company; software engineering internship title; internship term signal",
+      "suggestedAction": "Apply Now"
+    },
+    {
+      "url": "https://boards.greenhouse.io/robinhood/jobs/8142961?t=gh_src=&gh_jid=8142961",
+      "firstSeen": "2026-09-14",
+      "source": "greenhouse-api",
+      "title": "Software Engineering Intern, Android (Summer 2027)",
+      "company": "Robinhood",
+      "status": "added",
+      "location": "Menlo Park, CA; New York, NY",
+      "term": "Summer 2027",
+      "score": 4.7,
+      "why": "high-priority target company; software engineering internship title; internship term signal",
+      "suggestedAction": "Apply Now"
+    },
+    {
+      "url": "https://boards.greenhouse.io/robinhood/jobs/8142959?t=gh_src=&gh_jid=8142959",
+      "firstSeen": "2026-09-14",
+      "source": "greenhouse-api",
+      "title": "Software Engineering Intern, iOS (Summer 2027)",
+      "company": "Robinhood",
+      "status": "added",
+      "location": "Menlo Park, CA; New York, NY",
+      "term": "Summer 2027",
+      "score": 4.7,
+      "why": "high-priority target company; software engineering internship title; internship term signal",
+      "suggestedAction": "Apply Now"
+    },
+    {
+      "url": "https://boards.greenhouse.io/robinhood/jobs/8142963?t=gh_src=&gh_jid=8142963",
+      "firstSeen": "2026-09-14",
+      "source": "greenhouse-api",
+      "title": "Software Engineering Intern, Web (Summer 2027)",
+      "company": "Robinhood",
+      "status": "added",
+      "location": "Menlo Park, CA; New York, NY",
+      "term": "Summer 2027",
+      "score": 4.7,
+      "why": "high-priority target company; software engineering internship title; internship term signal",
+      "suggestedAction": "Apply Now"
+    }
+  ]
 }

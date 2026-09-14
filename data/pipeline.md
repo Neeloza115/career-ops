@@ -212,4 +212,13 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/PhD-Research-Intern--Autonomous-Systems-and-Physical-AI-Research---2027_JR2024171 | NVIDIA | PhD Research Intern, Autonomous Systems and Physical AI Research - 2027 | US, CA, Santa Clara
 
+- [ ] https://boards.greenhouse.io/robinhood/jobs/8142930?t=gh_src=&gh_jid=8142930 | Robinhood | Software Developer Intern, Backend (Summer 2027) | Toronto, Canada
+- [ ] https://boards.greenhouse.io/robinhood/jobs/8194428?t=gh_src=&gh_jid=8194428 | Robinhood | Software Developer Intern/Co-op, Backend (Winter 2027) | Toronto, Canada
+- [ ] https://boards.greenhouse.io/robinhood/jobs/8199729?t=gh_src=&gh_jid=8199729 | Robinhood | Software Developer Intern, iOS (Summer 2027) | Toronto, Canada
+- [ ] https://boards.greenhouse.io/robinhood/jobs/8199744?t=gh_src=&gh_jid=8199744 | Robinhood | Software Developer Intern, Web (Summer 2027) | Toronto, Canada
+- [ ] https://boards.greenhouse.io/robinhood/jobs/8142961?t=gh_src=&gh_jid=8142961 | Robinhood | Software Engineering Intern, Android (Summer 2027) | Menlo Park, CA; New York, NY
+- [ ] https://boards.greenhouse.io/robinhood/jobs/8123225?t=gh_src=&gh_jid=8123225 | Robinhood | Software Engineering Intern, Backend (Summer 2027) | Bellevue, WA; Menlo Park, CA; New York, NY
+- [ ] https://boards.greenhouse.io/robinhood/jobs/8142959?t=gh_src=&gh_jid=8142959 | Robinhood | Software Engineering Intern, iOS (Summer 2027) | Menlo Park, CA; New York, NY
+- [ ] https://boards.greenhouse.io/robinhood/jobs/8142963?t=gh_src=&gh_jid=8142963 | Robinhood | Software Engineering Intern, Web (Summer 2027) | Menlo Park, CA; New York, NY
+
 ## Processed
