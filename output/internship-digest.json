@@ -1,11 +1,25 @@
 {
-  "generatedAt": "2026-09-14T21:20:53.415Z",
+  "generatedAt": "2026-09-15T02:55:12.277Z",
   "minScore": 4,
   "summary": {
-    "newRows": 0,
-    "emailedRows": 0,
+    "newRows": 1,
+    "emailedRows": 1,
     "dryRun": false,
     "portalsPath": "config/internship-portals.yml"
   },
-  "items": []
+  "items": [
+    {
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556962891",
+      "firstSeen": "2026-09-15",
+      "source": "playwright-careers",
+      "title": "AI Software Engineering Intern",
+      "company": "Microsoft",
+      "status": "added",
+      "location": "United States, Washington, Redmond + 1 more",
+      "term": "",
+      "score": 4.5,
+      "why": "high-priority target company; software engineering internship title; North America or remote location",
+      "suggestedAction": "Apply Now"
+    }
+  ]
 }

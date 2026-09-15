@@ -221,4 +221,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://boards.greenhouse.io/robinhood/jobs/8142959?t=gh_src=&gh_jid=8142959 | Robinhood | Software Engineering Intern, iOS (Summer 2027) | Menlo Park, CA; New York, NY
 - [ ] https://boards.greenhouse.io/robinhood/jobs/8142963?t=gh_src=&gh_jid=8142963 | Robinhood | Software Engineering Intern, Web (Summer 2027) | Menlo Park, CA; New York, NY
 
+- [ ] https://apply.careers.microsoft.com/careers/job/1970393556962891 | Microsoft | AI Software Engineering Intern | United States, Washington, Redmond + 1 more
+
 ## Processed
