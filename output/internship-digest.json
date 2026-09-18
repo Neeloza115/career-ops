@@ -1,11 +1,25 @@
 {
-  "generatedAt": "2026-09-18T13:23:02.313Z",
+  "generatedAt": "2026-09-18T18:05:10.486Z",
   "minScore": 4,
   "summary": {
-    "newRows": 0,
-    "emailedRows": 0,
+    "newRows": 1,
+    "emailedRows": 1,
     "dryRun": false,
     "portalsPath": "config/internship-portals.yml"
   },
-  "items": []
+  "items": [
+    {
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556991773",
+      "firstSeen": "2026-09-18",
+      "source": "playwright-careers",
+      "title": "Software Engineer Internship OpportunitiesCanada, British Columbia, VancouverPosted 3 days ago",
+      "company": "Microsoft",
+      "status": "added",
+      "location": "Canada, British Columbia, Vancouver",
+      "term": "",
+      "score": 4.5,
+      "why": "high-priority target company; software engineering internship title; North America or remote location",
+      "suggestedAction": "Apply Now"
+    }
+  ]
 }

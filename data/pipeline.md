@@ -226,4 +226,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 
 
+- [ ] https://apply.careers.microsoft.com/careers/job/1970393556991773 | Microsoft | Software Engineer Internship OpportunitiesCanada, British Columbia, VancouverPosted 3 days ago | Canada, British Columbia, Vancouver
+
 ## Processed
