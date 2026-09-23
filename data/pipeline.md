@@ -230,4 +230,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 
 
+- [ ] https://apply.careers.microsoft.com/careers/job/1970393557004819 | Microsoft | Software Engineer: Intern Opportunity for University StudentsUnited States, California, Mountain ViewPosted 2 hours ago | United States, California, Mountain View
+
 ## Processed
