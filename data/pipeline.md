@@ -238,4 +238,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://jobs.ashbyhq.com/ramp/b66be397-240b-41a6-9b05-493299b270a9 | Ramp | Software Engineering Intern, iOS | New York, NY (HQ)
 
 
+- [ ] https://jobs.ashbyhq.com/notion/2b587e66-deac-421a-a824-9415ba78b5a7 | Notion | Software Engineer Intern, Mobile (Winter 2027)San Francisco, California; New York, New York | San Francisco, California; New York, New York
+
 ## Processed

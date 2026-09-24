@@ -1,11 +1,25 @@
 {
-  "generatedAt": "2026-09-24T18:51:57.171Z",
+  "generatedAt": "2026-09-24T23:47:41.932Z",
   "minScore": 4,
   "summary": {
-    "newRows": 0,
-    "emailedRows": 0,
+    "newRows": 1,
+    "emailedRows": 1,
     "dryRun": false,
     "portalsPath": "config/internship-portals.yml"
   },
-  "items": []
+  "items": [
+    {
+      "url": "https://jobs.ashbyhq.com/notion/2b587e66-deac-421a-a824-9415ba78b5a7",
+      "firstSeen": "2026-09-24",
+      "source": "playwright-careers",
+      "title": "Software Engineer Intern, Mobile (Winter 2027)San Francisco, California; New York, New York",
+      "company": "Notion",
+      "status": "added",
+      "location": "San Francisco, California; New York, New York",
+      "term": "Winter 2027",
+      "score": 4.6,
+      "why": "strong unicorn or AI infrastructure target; software engineering internship title; internship term signal",
+      "suggestedAction": "Apply Now"
+    }
+  ]
 }
