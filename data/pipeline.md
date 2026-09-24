@@ -233,4 +233,8 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 - [ ] https://apply.careers.microsoft.com/careers/job/1970393557004819 | Microsoft | Software Engineer: Intern Opportunity for University StudentsUnited States, California, Mountain ViewPosted 2 hours ago | United States, California, Mountain View
 
 
+- [ ] https://jobs.ashbyhq.com/ramp/a13ae586-f4cb-4385-8822-c42b9b54ed74 | Ramp | Software Engineer Internship, Frontend | New York, NY (HQ)
+- [ ] https://jobs.ashbyhq.com/ramp/fcf118cc-521a-4a62-9d13-945e5b6e3cb8 | Ramp | Software Engineering Intern, Android | New York, NY (HQ)
+- [ ] https://jobs.ashbyhq.com/ramp/b66be397-240b-41a6-9b05-493299b270a9 | Ramp | Software Engineering Intern, iOS | New York, NY (HQ)
+
 ## Processed
