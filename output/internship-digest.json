@@ -1,25 +1,11 @@
 {
-  "generatedAt": "2026-09-25T08:31:12.453Z",
+  "generatedAt": "2026-09-25T14:26:24.239Z",
   "minScore": 4,
   "summary": {
-    "newRows": 1,
-    "emailedRows": 1,
+    "newRows": 0,
+    "emailedRows": 0,
     "dryRun": false,
     "portalsPath": "config/internship-portals.yml"
   },
-  "items": [
-    {
-      "url": "https://careers.snowflake.com/us/en/job/SNCOUSB497FA45A04449C9A9B82749BEB58E69EXTERNALENUS5315B6F62C144CB9A884C2BAE69F2C69/Software-Engineer-Intern-Core-Infrastructure-Security-%E2%80%94-Spring-2027",
-      "firstSeen": "2026-09-25",
-      "source": "playwright-careers",
-      "title": "Software Engineer Intern (Core, Infrastructure & Security) — Spring 2027 Software Engineer Intern (Core, Infrastructure & Security) — Spring 2027 Job ID is b497fa45-a044-49c9-a9b8-",
-      "company": "Snowflake",
-      "status": "added",
-      "location": "Join us as a Software Engineer Intern and contribute to the development of core, infrastructure, and security systems at Snowflake. Work on impactful projects in a dynamic environm",
-      "term": "Spring 2027",
-      "score": 4.9,
-      "why": "high-priority target company; software engineering internship title; backend/platform/infrastructure signal",
-      "suggestedAction": "Apply Now"
-    }
-  ]
+  "items": []
 }
