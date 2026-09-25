@@ -1,11 +1,25 @@
 {
-  "generatedAt": "2026-09-25T19:09:16.460Z",
+  "generatedAt": "2026-09-25T23:49:50.995Z",
   "minScore": 4,
   "summary": {
-    "newRows": 0,
-    "emailedRows": 0,
+    "newRows": 1,
+    "emailedRows": 1,
     "dryRun": false,
     "portalsPath": "config/internship-portals.yml"
   },
-  "items": []
+  "items": [
+    {
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393557008714",
+      "firstSeen": "2026-09-25",
+      "source": "playwright-careers",
+      "title": "Software Engineer: Intern Opportunities for University Students, AtlantaUnited States, Georgia, AtlantaPosted 2 hours ago",
+      "company": "Microsoft",
+      "status": "added",
+      "location": "United States, Georgia, Atlanta",
+      "term": "",
+      "score": 4.5,
+      "why": "high-priority target company; software engineering internship title; North America or remote location",
+      "suggestedAction": "Apply Now"
+    }
+  ]
 }
