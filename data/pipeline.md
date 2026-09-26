@@ -244,4 +244,6 @@ Paste job URLs below as `- [ ] {url}` then run `/career-ops pipeline`.
 
 - [ ] https://apply.careers.microsoft.com/careers/job/1970393557008714 | Microsoft | Software Engineer: Intern Opportunities for University Students, AtlantaUnited States, Georgia, AtlantaPosted 2 hours ago | United States, Georgia, Atlanta
 
+- [ ] https://apply.careers.microsoft.com/careers/job/1970393557008574 | Microsoft | Research Intern - Data SystemsUnited States, Washington, RedmondPosted 4 hours ago | United States, Washington, Redmond
+
 ## Processed

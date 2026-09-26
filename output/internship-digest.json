@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T23:49:50.995Z",
+  "generatedAt": "2026-09-26T03:00:24.288Z",
   "minScore": 4,
   "summary": {
     "newRows": 1,
@@ -9,17 +9,17 @@
   },
   "items": [
     {
-      "url": "https://apply.careers.microsoft.com/careers/job/1970393557008714",
-      "firstSeen": "2026-09-25",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393557008574",
+      "firstSeen": "2026-09-26",
       "source": "playwright-careers",
-      "title": "Software Engineer: Intern Opportunities for University Students, AtlantaUnited States, Georgia, AtlantaPosted 2 hours ago",
+      "title": "Research Intern - Data SystemsUnited States, Washington, RedmondPosted 4 hours ago",
       "company": "Microsoft",
       "status": "added",
-      "location": "United States, Georgia, Atlanta",
+      "location": "United States, Washington, Redmond",
       "term": "",
-      "score": 4.5,
-      "why": "high-priority target company; software engineering internship title; North America or remote location",
-      "suggestedAction": "Apply Now"
+      "score": 4.3,
+      "why": "high-priority target company; backend/platform/infrastructure signal; North America or remote location",
+      "suggestedAction": "Review"
     }
   ]
 }
